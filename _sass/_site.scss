@@ -1,0 +1,73 @@
+
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid white;
+}
+
+.sidebar {
+  float: right;
+  width: $sidebar-width;
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+
+.sidebar li {
+  list-style-type: none;
+  margin-left: 0.7em;
+}
+
+.headshot {
+  width: $sidebar-width;
+  height: $sidebar-width;
+  margin-bottom: 1em;
+}
+
+.rssicon {
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+}
+
+.post {
+  margin-right: $sidebar-width;
+}
+
+.post h2 {
+  margin-bottom: 0;
+}
+
+.post:after {
+  content: "";
+  display: table;
+  clear: left;
+}
+
+.post-meta {
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+img.thumb {
+  width: 40%;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 0.7em;
+}
+
+.home img.thumb {
+  width: 25%;
+}
+
+.rellinks {
+  font-style: italic;
+
+  margin-bottom: 0.7em;
+}
+
+.prevlink {
+//  float: left;
+}
+
+.nextlink {
+  float: right;
+}

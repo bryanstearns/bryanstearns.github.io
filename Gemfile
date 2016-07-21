@@ -3,10 +3,4 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-
-# For import
-gem "jekyll-import"
-gem "unidecode"
-gem "sequel"
-gem "mysql2"
-gem "htmlentities"
+gem "jekyll-paginate"

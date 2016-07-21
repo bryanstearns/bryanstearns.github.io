@@ -4,20 +4,39 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <!--<h1 class="page-heading">Posts</h1>-->
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+    {% for post in paginator.posts %}
+      <li class="post">
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        {% if post.abstract %}
+          <p>
+            {{ post.abstract }}
+            (<a class="more-link" href="{{ post.url | prepend: site.baseurl }}">read</a>)
+          </p>
+        {% elsif post.excerpt %}
+          {{ post.excerpt }}
+          &hellip; (<a class="more-link" href="{{ post.url | prepend: site.baseurl }}">read more</a>)
+        {% else %}
+          {{ post.content | strip_html }}
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">More Recent Posts</a> &mdash;
+    {% endif %}
+      <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      &mdash; <a href="{{ paginator.next_page_path }}" class="next">Less Recent Posts</a>
+    {% endif %}
+  </div>
 
 </div>

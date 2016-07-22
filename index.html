@@ -7,36 +7,38 @@ layout: default
   <!--<h1 class="page-heading">Posts</h1>-->
 
   <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li class="post">
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    {% for post in site.posts %}
+      {% if forloop.index < 5 %}
+        <li class="post">
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        {% if post.abstract %}
-          <p>
-            {{ post.abstract }}
-            (<a class="more-link" href="{{ post.url | prepend: site.baseurl }}">read</a>)
-          </p>
-        {% elsif post.excerpt %}
-          {{ post.excerpt }}
-          &hellip; (<a class="more-link" href="{{ post.url | prepend: site.baseurl }}">read more</a>)
-        {% else %}
-          {{ post.content | strip_html }}
+          {% if post.abstract %}
+            <p>
+              {{ post.abstract }}
+              (<a class="more-link" href="{{ post.url | prepend: site.baseurl }}">read</a>)
+            </p>
+          {% elsif post.excerpt %}
+            {{ post.excerpt }}
+            &hellip; (<a class="more-link" href="{{ post.url | prepend: site.baseurl }}">read more</a>)
+          {% else %}
+            {{ post.content | strip_html }}
+          {% endif %}
+        </li>
+      {% else %}
+        {% if forloop.index == 5 %}
+          <h2>Older Posts</h2>
         {% endif %}
-      </li>
+
+        <li class="post older">
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
-
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">More Recent Posts</a> &mdash;
-    {% endif %}
-      <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      &mdash; <a href="{{ paginator.next_page_path }}" class="next">Less Recent Posts</a>
-    {% endif %}
-  </div>
-
 </div>

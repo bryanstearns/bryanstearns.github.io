@@ -13,9 +13,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://selfamusementpark.com" # the base hostname & protocol for your site
 timezone: "America/Los_Angeles"
 
-gems:
-- jekyll-paginate
-
 twitter_username: bryanstearns
 github_username:  bryanstearns
 
@@ -24,7 +21,6 @@ github_username:  bryanstearns
 markdown: kramdown
 excerpt_separator: <!--more-->
 permalink: :title
-paginate: 12
 exclude:
 - old
 - Gemfile

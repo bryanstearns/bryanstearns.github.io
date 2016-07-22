@@ -67,6 +67,14 @@
   margin-bottom: 0;
 }
 
+.post.older .post-link {
+  font-size: 20px;
+}
+
+.post-list > li.post.older {
+  margin-bottom: 1em;
+}
+
 .post:after {
   content: "";
   display: table;

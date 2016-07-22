@@ -9,6 +9,15 @@
   width: $sidebar-width;
   margin-left: 20px;
   font-size: 0.9em;
+
+  @include media-query($on-palm) {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.sidebar ul {
+  margin-left: 0;
 }
 
 .sidebar li {
@@ -16,10 +25,29 @@
   margin-left: 0.7em;
 }
 
+.also.large {
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+.also.small {
+  display: none;
+  @include media-query($on-palm) {
+    display: inline;
+  }
+}
+
 .headshot {
   width: $sidebar-width;
   height: $sidebar-width;
   margin-bottom: 1em;
+
+  @include media-query($on-palm) {
+    float: left;
+    margin: 0 1em 0 80px;
+    width: 64px;
+    height: 64px;
+  }
 }
 
 .rssicon {
@@ -30,6 +58,9 @@
 
 .post {
   margin-right: $sidebar-width;
+  @include media-query($on-palm) {
+    margin-right: 0;
+  }
 }
 
 .post h2 {
@@ -52,22 +83,38 @@ img.thumb {
   float: left;
   margin-right: 1em;
   margin-bottom: 0.7em;
+
+  @include media-query($on-palm) {
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 0;
+  }
 }
 
 .home img.thumb {
   width: 25%;
+  @include media-query($on-palm) {
+    width: 100%;
+  }
 }
 
 .rellinks {
   font-style: italic;
-
-  margin-bottom: 0.7em;
+  margin-bottom: 1em;
+  text-align: right;
+  // &:after {
+  //     content: "";
+  //     display: table;
+  //     clear: left;
+  // }
 }
 
 .prevlink {
-//  float: left;
+  white-space: nowrap;
+  float: left;
 }
 
 .nextlink {
-  float: right;
+  white-space: nowrap;
 }

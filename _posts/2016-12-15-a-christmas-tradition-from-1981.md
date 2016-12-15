@@ -3,10 +3,12 @@ published: true
 title: A Christmas Tradition, from 1981
 date: '2016-12-15 13:25:20 -0800'
 ---
-![1981 Christmas Card]({{ "/images/2015/03/81_pqidy.jpg" | prepend: site.baseurl }}){: .thumb}
+<a href="/images/2015/03/81_pqidy.jpg" target="_blank">
+  ![1981 Christmas Card]({{ "/images/2015/03/81_pqidy.jpg" | prepend: site.baseurl }}){: .thumb}
+</a>
 
 Continuing the tradition started five years ago, here's my Dad&rsquo;s ninth
-&ldquo;obscure&rdquo; Christmas card, from 1981.<!--more-->
+&ldquo;obscure&rdquo; Christmas card, from 1981.
 
 No, I didn't recognize all three of the ladies' names at the time, but I still got the message!
 

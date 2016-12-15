@@ -9,10 +9,12 @@ categories:
 tags: []
 comments: []
 ---
-![1977 Christmas Card]({{ "/images/2015/03/77_xrugn.jpg" | prepend: site.baseurl }}){: .thumb}
+<a href="/images/2015/03/77_xrugn.jpg" target="_blank">
+  ![1977 Christmas Card]({{ "/images/2015/03/77_xrugn.jpg" | prepend: site.baseurl }}){: .thumb}
+</a>
 
 Continuing the tradition started four years ago, here's my Dad&rsquo;s fifth
-&ldquo;obscure&rdquo; Christmas card, from 1977.<!--more-->
+&ldquo;obscure&rdquo; Christmas card, from 1977.
 
 Previously:
 <a href="{{ "/a-christmas-tradition-from-1976" | prepend: site.baseurl }}">1976</a>

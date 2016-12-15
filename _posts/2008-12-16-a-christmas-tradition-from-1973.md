@@ -3,7 +3,9 @@ published: true
 title: A Christmas tradition, from 1973
 date: '2008-12-16 10:33:25 -0800'
 ---
-![1973 Christmas Card]({{ "/images/2015/03/73_jfsxm.jpg" | prepend: site.baseurl }}){: .thumb}
+<a href="/images/2015/03/73_jfsxm.jpg" target="_blank">
+  ![1973 Christmas Card]({{ "/images/2015/03/73_jfsxm.jpg" | prepend: site.baseurl }}){: .thumb}
+</a>
 
 Christmas was a big holiday for my Dad: each year, he'd send out custom
 Christmas cards with obscure messages. He'd look forward to the phone calls

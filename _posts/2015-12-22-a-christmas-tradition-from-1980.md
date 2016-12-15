@@ -3,10 +3,12 @@ published: true
 title: A Christmas Tradition, from 1980
 date: '2015-12-22 23:29:20 -0800'
 ---
-![1980 Christmas Card]({{ "/images/2015/03/80_cteka.jpg" | prepend: site.baseurl }}){: .thumb}
+<a href="/images/2015/03/80_cteka.jpg" target="_blank">
+  ![1980 Christmas Card]({{ "/images/2015/03/80_cteka.jpg" | prepend: site.baseurl }}){: .thumb}
+</a>
 
 Continuing the tradition started five years ago, here's my Dad&rsquo;s eighth
-&ldquo;obscure&rdquo; Christmas card, from 1980; sorry it's a little late!<!--more-->
+&ldquo;obscure&rdquo; Christmas card, from 1980; sorry it's a little late!
 
 Yep, that's him in the picture; something's a little wrong with the bottom of
 the image, but that doesn't affect his holiday message (and those pillows were

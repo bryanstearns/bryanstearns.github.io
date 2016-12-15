@@ -3,10 +3,11 @@ published: true
 title: A Christmas Tradition, from 1979
 date: '2014-12-01 21:29:52 -0800'
 ---
-![1979 Christmas Card]({{ "/images/2015/03/79_yuwep.jpg" | prepend: site.baseurl }}){: .thumb}
-
+<a href="/images/2015/03/79_yuwep.jpg" target="_blank">
+  ![1979 Christmas Card]({{ "/images/2015/03/79_yuwep.jpg" | prepend: site.baseurl }}){: .thumb}
+</a>
 Continuing the tradition started four years ago, here's my Dad&rsquo;s seventh
-&ldquo;obscure&rdquo; Christmas card, from 1979. I "got" this one in 30 seconds.<!--more-->
+&ldquo;obscure&rdquo; Christmas card, from 1979. I "got" this one in 30 seconds.
 
 Previously:
 <a href="{{ "/a-christmas-tradition-from-1978" | prepend: site.baseurl }}">1978</a>

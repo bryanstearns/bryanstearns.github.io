@@ -9,11 +9,13 @@ categories:
 tags: []
 comments: []
 ---
-![1978 Christmas Card]({{ "/images/2015/03/78_qxlui.jpg" | prepend: site.baseurl }}){: .thumb}
+<a href="/images/2015/03/78_qxlui.jpg" target="_blank">
+  ![1978 Christmas Card]({{ "/images/2015/03/78_qxlui.jpg" | prepend: site.baseurl }}){: .thumb}
+</a>
 
 It’s been 40 years since my Dad started sending out Christmas cards with
 “obscure” messages! I’ve been posting them *almost every December for the
-last several years, so here’s the sixth one, from 1978.<!--more-->
+last several years, so here’s the sixth one, from 1978.
 
 Previously (*you might have missed last year’s due to me mostly ignoring this
 blog for more than the last year!):

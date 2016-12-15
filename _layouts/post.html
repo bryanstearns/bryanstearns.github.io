@@ -2,23 +2,21 @@
 layout: default
 ---
 
-{% if page.previous || page.next %}
-  <div class="rellinks">
-    {% if page.previous %}
-      <span class="prevlink">
-        ← <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-      </span>
-    {% endif %}
+<div class="rellinks">
+  {% if page.previous %}
+    <span class="prevlink">
+      ← <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    </span>
+  {% endif %}
 
-    &nbsp;
+  &nbsp;
 
-    {% if page.next %}
-      <span class="nextlink">
-        <a href="{{ page.next.url }}">{{ page.next.title }}</a> →
-      </span>
-    {% endif %}
-  </div>
-{% endif %}
+  {% if page.next %}
+    <span class="nextlink">
+      <a href="{{ page.next.url }}">{{ page.next.title }}</a> →
+    </span>
+  {% endif %}
+</div>
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 

@@ -27,6 +27,7 @@ exclude:
 - Gemfile.lock
 include:
 - .nojekyll
+- resume.pdf
 
 defaults:
   -

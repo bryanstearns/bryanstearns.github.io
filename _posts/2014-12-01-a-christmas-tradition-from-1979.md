@@ -1,12 +1,13 @@
 ---
 published: true
 title: A Christmas Tradition, from 1979
-date: '2014-12-01 21:29:52 -0800'
+date: "2014-12-01 21:29:52 -0800"
 ---
+
 <a href="/images/2015/03/79_yuwep.jpg" target="_blank">
   ![1979 Christmas Card]({{ "/images/2015/03/79_yuwep.jpg" | prepend: site.baseurl }}){: .thumb}
 </a>
-Continuing the tradition started four years ago, here's my Dad&rsquo;s seventh
+Continuing the tradition started six years ago, here's my Dad&rsquo;s seventh
 &ldquo;obscure&rdquo; Christmas card, from 1979. I "got" this one in 30 seconds.
 
 Previously:

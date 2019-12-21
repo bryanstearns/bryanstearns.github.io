@@ -1,13 +1,14 @@
 ---
 published: true
 title: A Christmas Tradition, from 1982
-date: '2017-12-21 17:13:20 -0800'
+date: "2017-12-21 17:13:20 -0800"
 ---
+
 <a href="/images/2015/03/82_lwtdf.jpg" target="_blank">
-  ![1981 Christmas Card]({{ "/images/2015/03/82_lwtdf.jpg" | prepend: site.baseurl }}){: .thumb}
+  ![1982 Christmas Card]({{ "/images/2015/03/82_lwtdf.jpg" | prepend: site.baseurl }}){: .thumb}
 </a>
 
-Continuing the tradition I started six years ago, here's my Dad&rsquo;s tenth
+Continuing the tradition I started nine years ago, here's my Dad&rsquo;s tenth
 &ldquo;obscure&rdquo; Christmas card, from 1982.
 
 The image is corrupted at the bottom, but the damaged portion contains a hint: his name, "John F. Stearns", has the first S in Stearns replaced by a treble clef.

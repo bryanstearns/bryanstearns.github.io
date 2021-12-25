@@ -14,7 +14,7 @@ url: "https://selfamusementpark.com" # the base hostname & protocol for your sit
 timezone: "America/Los_Angeles"
 
 twitter_username: bryanstearns
-github_username:  bryanstearns
+github_username: bryanstearns
 
 # Build settings
 # lsi: true
@@ -22,17 +22,19 @@ markdown: kramdown
 excerpt_separator: <!--more-->
 permalink: :title
 exclude:
-- old
-- Gemfile
-- Gemfile.lock
+  - old
+  - Gemfile
+  - Gemfile.lock
 include:
-- .nojekyll
-- resume.pdf
+  - .nojekyll
+  - resume.pdf
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # all files
       type: "posts"
     values:
       layout: "post"
+
+plugins:
+  - jekyll-target-blank

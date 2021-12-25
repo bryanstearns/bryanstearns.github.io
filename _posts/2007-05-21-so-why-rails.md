@@ -1,10 +1,11 @@
 ---
 published: true
 title: So why Rails?
-date: '2007-05-21 21:10:54 -0700'
+date: "2007-05-21 21:10:54 -0700"
 ---
+
 I came from a background of web applications, and after
-<a href="http://conferences.oreillynet.com/os2006/" target="_blank">OSCON</a>
+<a href="http://conferences.oreillynet.com/os2006/">OSCON</a>
 last year, I spent some time looking into <a href="http://www.djangoproject.com/"
 target="_blank">Django</a>, mostly because I'd heard a lot of good things about
 Rails, and Django was said to be "like Rails, only written in Python" (the

@@ -1,17 +1,20 @@
 ---
 published: true
 title: named_scope, joins, & includes
-date: '2008-07-10 13:51:25 -0700'
+date: "2008-07-10 13:51:25 -0700"
 ---
-I used Rails 2.1's named_scope to implement various ways to sort things on <a href="http://osoeco.com" target="_blank">OsoEco</a>. When I
+
+I used Rails 2.1's named_scope to implement various ways to sort things on <a href="http://osoeco.com">OsoEco</a>. When I
 implemented "most discussed" on the Question model (questions have many
 comments), it involved joining in the comments table to count comments for each
 question.<!--more--> Initially, it looked something like:
 
+<!-- prettier-ignore-start -->
 {% highlight ruby %}
 named_scope :most_active, :joins => :comments, :group => "questions.id",
             :order => "count(questions.id) desc"
 {% endhighlight %}
+<!-- prettier-ignore-end -->
 
 That caused a problem, which the Pivotal Labs folks also <a href="http://pivots.pivotallabs.com/users/joe/blog/articles/465-standup-07-10-2008">commented on today:</a>
 
@@ -24,10 +27,12 @@ That caused a problem, which the Pivotal Labs folks also <a href="http://pivots.
 Like they said, I fixed this with `:select` -- the second try looked like
 this:
 
+<!-- prettier-ignore-start -->
 {% highlight ruby %}
 named_scope :most_active, :select => "questions.*", :joins => :comments,
             :group => "questions.id", :order => "count(questions.id) desc"
 {% endhighlight %}
+<!-- prettier-ignore-end -->
 
 That worked (and fixed that problem), but it occurred to me that if my
 controller wanted to `:include` additional tables to add onto this scope (and
@@ -36,6 +41,7 @@ that's one of the cool things that `named_scope` enables), it wouldn't work:
 
 Fixing this required a bit of table aliasing, and led to this:
 
+<!-- prettier-ignore-start -->
 {% highlight ruby %}
 named_scope :most_active, :select => "questions.*",
             :joins => "left join comments as comments_for_count on
@@ -43,5 +49,6 @@ named_scope :most_active, :select => "questions.*",
             :group => "questions.id",
             :order => "count(questions.id) desc"
 {% endhighlight %}
+<!-- prettier-ignore-end -->
 
 This worked, even with the `:include` added in a subsequent (anonymous) scope.

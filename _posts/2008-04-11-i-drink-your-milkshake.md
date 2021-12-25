@@ -1,8 +1,9 @@
 ---
 published: true
 title: I drink your milkshake
-date: '2008-04-11 11:16:28 -0700'
+date: "2008-04-11 11:16:28 -0700"
 ---
+
 ![7-day forecast]({{ "/images/2015/03/7day_web.jpg" | prepend: site.baseurl }}){: .thumb}
 I <strong>like</strong> chocolate milkshakes, in ways that the HTML "\<strong\>" tag can't
 really convey.
@@ -19,7 +20,7 @@ then we went straight to 100&deg;. (And no 110&deg;, boo hoo.)
 This year, I'm not taking any chances: I'm starting at 70&deg;. I deserve it,
 too: we haven't hit 70&deg; yet this year, and we're almost halfway through
 April already. I further deserve it because
-<a href="http://www.coolmoonicecream.com/" target="_blank">Cool Moon</a>
+<a href="http://www.coolmoonicecream.com/">Cool Moon</a>
 has been open since last November, just across the park, and I've been able to resist.
 
 Tomorrow, however, the forecast is for 75&deg; - Cool Moon, I'm coming for you.

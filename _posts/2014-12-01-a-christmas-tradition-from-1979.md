@@ -4,7 +4,7 @@ title: A Christmas Tradition, from 1979
 date: "2014-12-01 21:29:52 -0800"
 ---
 
-<a href="/images/2015/03/79_yuwep.jpg" target="_blank">
+<a href="/images/2015/03/79_yuwep.jpg">
   ![1979 Christmas Card]({{ "/images/2015/03/79_yuwep.jpg" | prepend: site.baseurl }}){: .thumb}
 </a>
 Continuing the tradition started six years ago, here's my Dad&rsquo;s seventh

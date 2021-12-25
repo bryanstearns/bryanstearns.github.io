@@ -4,7 +4,7 @@ title: A Christmas Tradition, from 1982
 date: "2017-12-21 17:13:20 -0800"
 ---
 
-<a href="/images/2015/03/82_lwtdf.jpg" target="_blank">
+<a href="/images/2015/03/82_lwtdf.jpg">
   ![1982 Christmas Card]({{ "/images/2015/03/82_lwtdf.jpg" | prepend: site.baseurl }}){: .thumb}
 </a>
 

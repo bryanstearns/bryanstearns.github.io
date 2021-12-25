@@ -4,11 +4,11 @@ title: A Christmas Tradition, from 1985 & 1986
 date: "2021-12-23 17:50:00 -0800"
 ---
 
-<a href="/images/2015/03/85_aakdv.jpg" target="_blank">
+<a href="/images/2015/03/85_aakdv.jpg">
   ![1983 Christmas Card]({{ "/images/2015/03/85_aakdv.jpg" | prepend: site.baseurl }}){: .thumb}
 </a>
 
-<a href="/images/2015/03/86_bbgwt.jpg" target="_blank">
+<a href="/images/2015/03/86_bbgwt.jpg">
   ![1983 Christmas Card]({{ "/images/2015/03/86_bbgwt.jpg" | prepend: site.baseurl }}){: .thumb}
 </a>
 

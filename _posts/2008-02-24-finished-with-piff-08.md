@@ -1,8 +1,9 @@
 ---
 published: true
 title: Finished with PIFF '08
-date: '2008-02-24 14:01:36 -0800'
+date: "2008-02-24 14:01:36 -0800"
 ---
+
 The Portland International Film Festival is finally over, and though I'm
 exhausted from the arduous schedule I kept (I saw every film I could - 70
 features and 4 collections of shorts), I had a great time &mdash; even better
@@ -18,11 +19,11 @@ most of the press screenings too, and since we'd all seen the same things
 already, we tended to make the same choices of festival screenings as well.
 
 I also met several people who introduced themselves as users of
-<a href="http://festivalfanatic.com" target="_blank">FestivalFanatic.com,</a>
+<a href="http://festivalfanatic.com">FestivalFanatic.com,</a>
 the site I created to manage my own schedule. It was also nice to see strangers
 carrying printed schedules produced by Festival Fanatic (note to those folks:
 improving schedule printing is near the top of my to-do list!).
 
 Incidentally, the schedule for San Jose's
-<a href="http://cinequest.org" target="_blank">Cinequest</a> festival is up
+<a href="http://cinequest.org">Cinequest</a> festival is up
 on FestivalFanatic.com now, for my Bay Area friends who'll be attending.

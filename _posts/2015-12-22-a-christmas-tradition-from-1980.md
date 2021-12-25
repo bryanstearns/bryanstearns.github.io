@@ -4,7 +4,7 @@ title: A Christmas Tradition, from 1980
 date: "2015-12-22 23:29:20 -0800"
 ---
 
-<a href="/images/2015/03/80_cteka.jpg" target="_blank">
+<a href="/images/2015/03/80_cteka.jpg">
   ![1980 Christmas Card]({{ "/images/2015/03/80_cteka.jpg" | prepend: site.baseurl }}){: .thumb}
 </a>
 

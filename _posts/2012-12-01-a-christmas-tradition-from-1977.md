@@ -3,13 +3,14 @@ layout: post
 status: publish
 published: true
 title: A Christmas Tradition, from 1977
-date: '2012-12-01 17:56:42 -0800'
+date: "2012-12-01 17:56:42 -0800"
 categories:
-- General
+  - General
 tags: []
 comments: []
 ---
-<a href="/images/2015/03/77_xrugn.jpg" target="_blank">
+
+<a href="/images/2015/03/77_xrugn.jpg">
   ![1977 Christmas Card]({{ "/images/2015/03/77_xrugn.jpg" | prepend: site.baseurl }}){: .thumb}
 </a>
 

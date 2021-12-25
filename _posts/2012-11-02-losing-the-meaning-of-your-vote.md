@@ -3,13 +3,14 @@ layout: post
 status: publish
 published: true
 title: Losing the meaning of your vote
-date: '2012-11-02 07:44:58 -0700'
+date: "2012-11-02 07:44:58 -0700"
 categories:
-- General
+  - General
 tags: []
 ---
+
 My good friend b1-66er wrote <a href="http://b1-66ersworld.blogspot.com/2012/11/obama-has-lost-my-vote.html"
-                                title="Obama has lost my vote" target="_blank">this post</a>
+                                title="Obama has lost my vote">this post</a>
 about how he's decided to vote. Please go read it, then compare your thinking
 to his, and mine - I started this as an email to him, but I've decided to post
 it here in case any of the other four of you who read this are thinking along

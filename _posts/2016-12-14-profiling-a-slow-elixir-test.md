@@ -1,11 +1,12 @@
 ---
 published: true
 title: Profiling a Slow Elixir Test
-date: '2016-12-14 21:19:04 -0800'
+date: "2016-12-14 21:19:04 -0800"
 ---
+
 I noticed that a couple of tests in my current Elixir project were a little
 slow, so I set out to find a way to profile them... I quickly found this <a
-href="http://learningelixir.joekain.com/profiling-elixir/" target="_blank">this
+href="http://learningelixir.joekain.com/profiling-elixir/">this
 helpful blog post</a> (thanks, Joseph Kain!), and tried out <a
 href="https://github.com/parroty/exprof">ExProf</a> &mdash; but afterward, like
 Joseph said, "At this point I was a little confused by the results."
@@ -15,8 +16,7 @@ href="http://erlang.org/doc/man/fprof.html">`fprof`</a>. This looked better (as
 he says) because `fprof` supports display of call chains, providing a lot more
 useful context. Better still, I found <a
 href="http://learningelixir.joekain.com/mix-profile/">his followup post</a> that
-taught me about how recent versions of Elixir come with a Mix task (`mix
-profile.fprof`) for profiling that produces friendlier output.
+taught me about how recent versions of Elixir come with a Mix task (`mix profile.fprof`) for profiling that produces friendlier output.
 
 The Mix task didn't give me an easy way to wrap a slow test, though: it's good
 for measuring an easily-isolatable bit of code like a single function, but
@@ -36,7 +36,8 @@ end
 ```
 
 <!--more-->When I notice that a test runs slowly, I can temporarily wrap just the "meat" of
-it (avoiding asserts  extraneous stuff like the ExVCR setup here) like this:
+
+it (avoiding asserts extraneous stuff like the ExVCR setup here) like this:
 
 ```
 test "service gets a single movie" do

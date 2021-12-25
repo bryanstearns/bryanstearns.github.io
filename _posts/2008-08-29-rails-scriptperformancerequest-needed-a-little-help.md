@@ -1,8 +1,9 @@
 ---
 published: true
 title: Rails script/performance/request needed a little help
-date: '2008-08-29 10:29:34 -0700'
+date: "2008-08-29 10:29:34 -0700"
 ---
+
 While following <a href="http://railscasts.com/episodes/98-request-profiling">another
 great Ryan Bates Railscast</a>, I had a couple of problems on my Ubuntu 8.04
 development machine:

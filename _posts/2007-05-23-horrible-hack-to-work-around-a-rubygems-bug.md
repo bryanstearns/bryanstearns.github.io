@@ -1,9 +1,10 @@
 ---
 published: true
 title: Horrible hack to work around a RubyGems bug
-date: '2007-05-23 18:11:20 -0700'
+date: "2007-05-23 18:11:20 -0700"
 ---
-<a href="http://conferences.oreillynet.com/rails/" target="_blank">RailsConf</a>
+
+<a href="http://conferences.oreillynet.com/rails/">RailsConf</a>
 inspired me to be more vocal in the community, and one way is for me to share
 some of the problem workarounds I've come up with. Here's the first one, and
 I'm posting it in spite of being ashamed of it!<!--more-->
@@ -18,6 +19,8 @@ the experience with the gems architecture to help drive the decision; in the
 meantime, I needed a fix..
 
 This works for me, for now:
+
+<!-- prettier-ignore-start -->
 {% highlight ruby %}
 # /usr/lib/ruby/site_ruby/1.8/rubygems/remote_install.rb, line 112:
 # Find a gem to be installed by interacting with the user.
@@ -27,6 +30,7 @@ def find_gem_to_install(gem_name, version_requirement)
   specs_n_sources.delete_if { |item| item[0].platform=="mswin32" }
   # [...]
 {% endhighlight %}
+<!-- prettier-ignore-end -->
 
 This makes "gem" ignore "mswin32"-platform gems. I apply the patch (in my
 automated mechanism, of course), and if the apply fails, the install will fail,

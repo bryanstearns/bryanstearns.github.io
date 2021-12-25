@@ -1,8 +1,9 @@
 ---
 published: true
-title: 'Paradise: now, with chocolate!'
-date: '2007-11-01 09:10:07 -0700'
+title: "Paradise: now, with chocolate!"
+date: "2007-11-01 09:10:07 -0700"
 ---
+
 ![Steelgrass Farm road]({{ "/images/2015/03/steelgrass_road.jpg" | prepend: site.baseurl }}){: .thumb}
 Just returned from a much-needed vacation on Kauai. I've been there several
 times before, but it was Gina's first time - we both had a great time, we
@@ -10,7 +11,7 @@ snorkeled, we relaxed & read, the weather was great, wish you were there, blah
 blah blah.<!--more-->
 
 The high point of the trip was our second day there: we took the tour of
-<a href="http://steelgrass.org" target="_blank">Steelgrass Farm</a>.
+<a href="http://steelgrass.org">Steelgrass Farm</a>.
 
 > ...a multidisciplinary educational center for agriculture, music and the arts.
 > On the agriculture side, we're a demonstration farm with extensive plantings
@@ -46,7 +47,7 @@ along the way. We got to taste a lot of fruit right off the trees, like
 acerola berries (very tart, just like the vitamin C tablets made from them),
 Meyer lemons, limes, guavas, and plenty of starfruit; after each sample, the
 cores, peels, pits, and seeds were tossed in nearby brush - organic! They're
-also working on "cultivating" vanilla;  though it's not ready for tasting, we
+also working on "cultivating" vanilla; though it's not ready for tasting, we
 saw pods dangling from the vanilla orchid vines in the trees, and to hear about
 the manual pollination process they used.
 

@@ -1,9 +1,10 @@
 ---
 published: true
 title: Best Laid Plans
-date: '2007-09-12 12:54:12 -0700'
+date: "2007-09-12 12:54:12 -0700"
 ---
-This morning's Oregonian newspaper had <a href="http://blog.oregonlive.com/breakingnews/2007/09/old_lesson_on_apollo_10_reappe.html" target="_blank">this story</a> (sorry, they forbid linking to the photo) about
+
+This morning's Oregonian newspaper had <a href="http://blog.oregonlive.com/breakingnews/2007/09/old_lesson_on_apollo_10_reappe.html">this story</a> (sorry, they forbid linking to the photo) about
 a newly-uncovered schoolroom chalkboard that still bore a lesson from 1969: in
 neat block lettering, the board says:<!--more-->
 

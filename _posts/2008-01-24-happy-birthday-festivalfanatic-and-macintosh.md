@@ -1,11 +1,12 @@
 ---
 published: true
 title: Happy Birthday, FestivalFanatic (and Macintosh)
-date: '2008-01-24 18:43:32 -0800'
+date: "2008-01-24 18:43:32 -0800"
 ---
-Finally got the initial release of <a href="http://festivalfanatic.com" target="_blank">FestivalFanatic</a>
+
+Finally got the initial release of <a href="http://festivalfanatic.com">FestivalFanatic</a>
 into production today: when it grows up, it'll be a tool to let people get more
-out of going to film festivals.  It's also a tool to prove that I can do
+out of going to film festivals. It's also a tool to prove that I can do
 soup-to-nuts Ruby on Rails development.<!--more-->
 
 Today's version doesn't do much (actually, the live version doesn't do

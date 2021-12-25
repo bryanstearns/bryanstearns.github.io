@@ -1,8 +1,9 @@
 ---
 published: true
-title: 'Open Source Bridge: Exciting the attentions of the Ingenious'
-date: '2010-03-24 14:06:55 -0700'
+title: "Open Source Bridge: Exciting the attentions of the Ingenious"
+date: "2010-03-24 14:06:55 -0700"
 ---
+
 I'm reading <a href="http://www.amazon.com/gp/product/1594484015?ie=UTF8&tag=festivalfcom-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1594484015">"The
 Invention of Air" by Steven Johnson</a>, which talks a lot about Joseph Priestly's
 experiments with electricity, discovery of oxygen, etc, and also about the
@@ -29,5 +30,5 @@ into electricity, <a href="http://books.google.com/books?id=haAQAAAAYAAJ&lpg=PR8
 &mdash; it starts on p148, ends on p153.)
 
 I'm inspired to post this here because I happened to have just registered to
-attend Portland's <a href="http://opensourcebridge.org/" target="_blank">Open Source Bridge conference</a>,
+attend Portland's <a href="http://opensourcebridge.org/">Open Source Bridge conference</a>,
 coming up June 1-4 &emdash; the open source movement is the next Age of Enlightenment.

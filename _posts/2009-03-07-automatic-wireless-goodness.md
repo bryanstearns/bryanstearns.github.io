@@ -1,7 +1,7 @@
 ---
 published: true
 title: Automatic wireless goodness
-date: '2009-03-07 15:29:18 -0800'
+date: "2009-03-07 15:29:18 -0800"
 ---
 
 I often work in coffeeshops and other places that provide free wireless networks.
@@ -16,11 +16,11 @@ laptop (also running Ubuntu).
 
 This worked great for a while, but a few things bugged me:
 
-* The VPN connection doesn't happen automatically - I had to remember to do it,
+- The VPN connection doesn't happen automatically - I had to remember to do it,
   and would sometimes forget;
-* my favorite hangouts' wireless networks ask me to accept terms of service
+- my favorite hangouts' wireless networks ask me to accept terms of service
   every time I use them, and that got annoying;
-* and whenever the DHCP lease renews (which is every few minutes in some
+- and whenever the DHCP lease renews (which is every few minutes in some
   places), the DNS server configuration would be reset to point at the shop's
   DNS server instead of the one I run (so I'd lose the ability to refer to my
   home machines by name; it's also possible that the public DNS server is less
@@ -29,26 +29,28 @@ This worked great for a while, but a few things bugged me:
 I set out to remedy these problems, and it turned out to not be too difficult;
 I learned a bit about Network Manager in the process, too. Network Manager can
 automatically run a script when it associates with a wireless network, so I
-wrote <a href="http://gist.github.com/75475" target="_blank">this Python script</a>;
+wrote <a href="http://gist.github.com/75475">this Python script</a>;
 it solves the first two problems: it looks to see what network we associated
 with, and if it's not my home network, it creates the VPN connection. First,
 though, if it's one of the networks that requires a terms-of-service acceptance,
 it accepts them and submits the form. (The latter mechanism is specific to the
-<a href="http://www.personaltelco.net/" target="_blank">Portland Telco Project</a>
+<a href="http://www.personaltelco.net/">Portland Telco Project</a>
 networks we have here in Portland, but you can probably figure out how to customize
 it to your own networks - if not, leave a comment.)
 
 The third problem, where DHCP renewal clobbers DNS settings, seems to be known
-but unfixed: here's <a href="https://bugs.launchpad.net/ubuntu/+source/dhcp3/+bug/90681" target="_blank">a
+but unfixed: here's <a href="https://bugs.launchpad.net/ubuntu/+source/dhcp3/+bug/90681">a
 bug about it</a>. The person who reported the bug posted a workaround for this
 problem. I'm not sure it's the right change for everyone, but I'm happy with it
 in my case: it's a one-line addition to `/sbin/dhclient-script`; insert
 this line just after the start of the `make_resolve_conf` function
 that's first in that file:
 
+<!-- prettier-ignore-start -->
 {% highlight bash %}
     [ "$reason" = "RENEW" ] && return<br />
 {% endhighlight %}
+<!-- prettier-ignore-end -->
 
 This shortcuts the function that would be overwriting the DNS settings to do
 nothing if we're renewing the DHCP settings. (Admittedly, if the DNS server

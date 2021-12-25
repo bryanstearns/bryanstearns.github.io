@@ -1,11 +1,12 @@
 ---
 published: true
 title: Hiding in plain sight
-date: '2008-02-26 13:43:47 -0800'
+date: "2008-02-26 13:43:47 -0800"
 ---
+
 ![readme icon]({{ "/images/2015/03/readme.png" | prepend: site.baseurl }}){: .thumb}
 
-In writing <a href="http://www.portlandonfire.com/bryanstearns/" target="_blank">my bio for Portland on Fire</a>,
+In writing <a href="http://www.portlandonfire.com/bryanstearns/">my bio for Portland on Fire</a>,
 I mentioned that I'd hidden my first name upside down in the "Read Me" file
 on Macintosh during the late 1980's: millions of people clicked on this icon
 to get help, and as far as I know, none of them noticed my name. The Wikipedia

@@ -1,9 +1,10 @@
 ---
 published: true
 title: A Christmas tradition, from 1973
-date: '2008-12-16 10:33:25 -0800'
+date: "2008-12-16 10:33:25 -0800"
 ---
-<a href="/images/2015/03/73_jfsxm.jpg" target="_blank">
+
+<a href="/images/2015/03/73_jfsxm.jpg">
   ![1973 Christmas Card]({{ "/images/2015/03/73_jfsxm.jpg" | prepend: site.baseurl }}){: .thumb}
 </a>
 

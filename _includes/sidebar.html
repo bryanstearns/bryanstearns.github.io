@@ -9,8 +9,28 @@
     <a href="https://www.linkedin.com/in/bryanstearns"><span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span></a>
   </span>
 </p>
+
+<p class="also large">
   You can also find me on
     <a href="https://twitter.com/bryanstearns">Twitter</a>,
     <a href="https://github.com/bryanstearns">GitHub</a>, and
     <a href="https://www.linkedin.com/in/bryanstearns">LinkedIn</a>, or
     <a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a>.
+</p>
+
+<p>
+  <div id="search-container">
+    <input type="search" id="search-input" placeholder="Search..." />
+    <ul id="search-results"></ul>
+  </div>
+  <script src="/js/simple-jekyll-search.js" type="text/javascript"></script>
+  <script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById("search-input"),
+      resultsContainer: document.getElementById("search-results"),
+      json: "/search.json",
+      limit: 10,
+      debounceTime: 400
+    })
+  </script>
+</p>

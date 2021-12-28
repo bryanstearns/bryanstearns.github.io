@@ -2,6 +2,7 @@
 published: true
 title: named_scope, joins, & includes
 date: "2008-07-10 13:51:25 -0700"
+category: Coding
 ---
 
 I used Rails 2.1's named_scope to implement various ways to sort things on <a href="http://osoeco.com">OsoEco</a>. When I

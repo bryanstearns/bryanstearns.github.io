@@ -2,6 +2,7 @@
 published: true
 title: Rails script/performance/request needed a little help
 date: "2008-08-29 10:29:34 -0700"
+category: Coding
 ---
 
 While following <a href="http://railscasts.com/episodes/98-request-profiling">another

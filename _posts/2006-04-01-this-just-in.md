@@ -1,8 +1,10 @@
 ---
 published: true
 title: This just in... again.
-date: '2006-04-01 16:35:00 -0800'
+date: "2006-04-01 16:35:00 -0800"
+category: General
 ---
+
 I've resurrected my blog. I started writing a couple of years ago, but
 eventually the posts slowed to a trickle as my impulse to post was swamped by
 the urge to tinker with the look.

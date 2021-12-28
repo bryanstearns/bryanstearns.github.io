@@ -1,7 +1,9 @@
 ---
-published: true
+published: false
 title: Starting a new project
-date: "2021-08-17 14:05:00 -0700"
+date: "2022-01-01 14:05:00 -0700"
+categories: Airplane
+tags: General
 ---
 
 <a href="https://www.vansaircraft.com/rv-12is/" target="\_blank">
@@ -12,26 +14,27 @@ A long time ago, I was an amateur aviator: in the late 80's, I
 learned to fly and got my instrument rating, bought an airplane,
 and flew it around the country a few times. I even volunteered at
 AirVenture, the big Experimental Aircraft Association convention
-and fly-on in Oshkosh, Wisconsin: my friend Andy and I provided
+and fly-in in Oshkosh, Wisconsin: my friend Andy and I provided
 computer support to the homebuilt judging group for almost a decade.
 I got to see a lot of great homebuilt airplanes, but didn't want
 to build one myself; I just wanted to fly the plane I had. <!--more-->
 
-Eventually, though, the plane needed painting, and I was changing
+Eventually, though, my plane needed painting, and I was changing
 to a startup job, so I sold it. Though I didn't plan it, I haven't
 flown since.
 
 Lately, though, I've found myself down a YouTube rathole of cool
-aviation videos. Some of them are people documenting their homebuilt
-projects, and I realized a few things:
+aviation videos. (Thanks, pandemic!) Some are made by people documenting
+their homebuilt projects, and I realized a few things:
 
-- I have time and desire to build something now.
+- Now that I'm pretty much retired, I have time and desire to build
+  something now.
 
 - <a href="https://vansaircraft.com" target="_blank">Van's Aircraft</a>,
   the oldest and most popular kit manufacturer, is only 45 minutes
   away, and their kits have gotten better over the years.
 
-- Oh, and my heart attack means that getting an FAA medical certificate
+- Oh, but my recent heart attack means that getting an FAA medical certificate
   will be... complicated.
 
 ## Getting current
@@ -39,14 +42,15 @@ projects, and I realized a few things:
 I was taught that there are three things you need to act as a
 small-airplane pilot: a Private Pilot's license, a recent signoff
 from an instructor that says your skills & knowledge are up to par,
-and a recent medical certificate that says you're fit to fly.
-
-The license never goes away, so I can already tick the first box.
+and a recent medical certificate that says you're fit to fly. The
+license never goes away, so I can already tick the first box.
 I'll need to study a bit and find a new flight instructor for the
-second one. And the medical? From what I read, I might be able to
-convince the FAA to grant me a "special issuance" medical, if I can
-provide them with evidence that my heart is now in good shape and
-I'm not at high risk of having another heart event.
+second one.
+
+And the medical? I read that I might be able to convince the FAA to
+grant me a "special issuance" medical, if I can provide them with
+evidence that my heart is now in good shape and I'm not at high
+risk of having another heart event.
 
 However, things have changed a bit since I last flew: there's also
 an additional class of pilot's license, Sport Pilot, which lets you
@@ -54,14 +58,15 @@ fly a new class of aircraft, Light Sport, but only during the day
 in good weather. (Light Sport planes are limited to 2 people, max
 weight of 1320 pounds, and max speed of 138 miles per hour. Van's
 sells a light-sport kit, <a href="https://www.vansaircraft.com/rv-12is/"
-target="_blank">the RV-12</a>.) A Sport Pilot doesn't need an FAA
+target="_blank">the RV-12iS</a>.) A Sport Pilot doesn't need an FAA
 medical, just a valid driver's license, and certifies their own
 fitness to fly.
 
 As a licensed private pilot, I get to act as a Sport Pilot if I
-want - I still have to get an instructor's signoff, and still could
-only fly Light Sport aircraft during the day in good weather. Also,
-I can't have been denied a medical certificate by the FAA.
+want, without having to get a medical certificate - I still have to
+get an instructor's signoff, and still could only fly Light Sport aircraft
+during the day in good weather. Also (and this is the sticky part): I can't
+have been denied a medical certificate by the FAA.
 
 I thought about it, and decided that I wanted to try to get the
 special-issuance medical, primarily because I wanted to be able to
@@ -70,8 +75,8 @@ thought I might want to build and fly Van's newest and fastest
 plane, <a href="https://www.vansaircraft.com/rv-14/" target="_blank">the
 RV-14</a>.
 
-I saw a bunch of postings on several aviation forums from <a
-href="http://www.aeromedicaldoc.com" target="_blank">Dr. Bruce
+So I went for it: I'd seen a bunch of postings on several aviation
+forums from <a href="http://www.aeromedicaldoc.com" target="_blank">Dr. Bruce
 Chien</a>, an aviation medical examiner who specializes in situations
 like mine. I contacted Dr. Chien, and together we worked through
 building the package that we'd submit to the FAA if it all looked
@@ -82,8 +87,17 @@ lifestyle changes since my attack, discussion of what we're doing
 to reduce future risk, etc. Once Dr. Chien thought everything
 looked good to him, I visited him outside Chicago for a regular
 aviation medical exam, which I also passed, and we submitted
-everything to the FAA. Now we're waiting to see what they say,
-which'll take 90 days or so (we hope!).
+everything to the FAA.
+
+It took a couple of months, but the FAA granted my special-issuance medical!
+It's good for two years, but I'll need to redo the stress test each year to
+keep it valid.
+
+(Another rule change I didn't mention above: the FAA has another medical program
+called BasicMed, which lets any doctor certify me without the FAA's involvement.
+It requires me to have been granted a regular medical sometime since 2007... and
+my new special-issuance medical counts! So, I might not even have to do the stress
+test.)
 
 ## So which plane do I want to build and fly?
 
@@ -110,8 +124,10 @@ I do, and even though it's a light-sport airplane, I can fly it at
 night if I'm flying as a private pilot with a medical certificate.
 
 The bad news is that all of Van's kits are backordered because of
-a lot of increased demand (thanks, pandemic!). Because I was looking
-at a five month lead time for the first subkit, I went ahead and
-placed my order at the end of July. I've already started clearing
-out the half of the garage in which I'll be building, and I'm hoping
-to be pulling rivets by Christmas!
+a lot of increased demand (thanks again, pandemic!). I placed my order
+for the first subkit in July, and it's still not here yet. In the meantime,
+I've cleared out half of the garage, built a couple of workbenches, and
+started collecting the many special tools I'll need.
+
+I'll be posting my progress here, and might also post YouTube videos of
+my own.

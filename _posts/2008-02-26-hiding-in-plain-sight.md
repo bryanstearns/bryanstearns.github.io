@@ -2,6 +2,7 @@
 published: true
 title: Hiding in plain sight
 date: "2008-02-26 13:43:47 -0800"
+category: Coding
 ---
 
 ![readme icon]({{ "/images/2015/03/readme.png" | prepend: site.baseurl }}){: .thumb}

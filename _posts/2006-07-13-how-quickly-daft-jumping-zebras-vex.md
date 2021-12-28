@@ -2,6 +2,7 @@
 published: true
 title: How quickly daft jumping zebras vex
 date: "2006-07-13 08:11:15 -0700"
+category: Coding
 ---
 
 No kidding &mdash; Lorenzo called off his trip to visit Mexico City just

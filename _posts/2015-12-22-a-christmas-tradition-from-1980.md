@@ -2,6 +2,7 @@
 published: true
 title: A Christmas Tradition, from 1980
 date: "2015-12-22 23:29:20 -0800"
+category: Christmas
 ---
 
 <a href="/images/2015/03/80_cteka.jpg">

@@ -2,6 +2,7 @@
 published: true
 title: Profiling a Slow Elixir Test
 date: "2016-12-14 21:19:04 -0800"
+category: Coding
 ---
 
 I noticed that a couple of tests in my current Elixir project were a little

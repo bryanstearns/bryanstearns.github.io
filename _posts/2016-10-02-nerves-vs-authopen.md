@@ -1,8 +1,10 @@
 ---
 published: true
 title: A Nerves tidbit
-date: '2016-10-02 13:24:04 -0700'
+date: "2016-10-02 13:24:04 -0700"
+category: Coding
 ---
+
 I've been working on learning the Elixir programming language for the last several months, and after returning from ElixirConf a few weeks ago, I was inspired to try a small project with Nerves, a platform for building Elixir applications on small devices like the Raspberry Pi.
 
 Nerves provides a toolchain for building on the Mac which results in it writing a bootable microSD card that I boot in the Pi to try out my code. There's a lot of complexity in what Nerves is doing for me, but one little bit (not Nerves' fault!) annoyed me: I had to enter my login password every few minutes when Nerves wanted to write to the microSD card.<!-- more -->

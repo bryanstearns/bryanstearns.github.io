@@ -2,6 +2,7 @@
 published: true
 title: Ignite Portland 2 was great!
 date: "2008-02-05 22:58:42 -0800"
+category: Travel & Local
 ---
 
 Gina and I went to <a href="http://igniteportland.com">Ignite Portland 2</a>

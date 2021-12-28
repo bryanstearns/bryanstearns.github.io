@@ -1,8 +1,10 @@
 ---
 published: true
 title: Running away to the circus... for a few minutes
-date: '2010-04-11 23:02:20 -0700'
+date: "2010-04-11 23:02:20 -0700"
+category: Travel & Local
 ---
+
 I surprised Gina tonight with a trip to see <a href="http://www.cirquedusoleil.com/en/shows/kooza"
 target="_blank">Cirque du Soleil's "Kooza,"</a> which just opened in Portland.
 She didn't figure it out until she saw the tent, so that's nice: I kept throwing

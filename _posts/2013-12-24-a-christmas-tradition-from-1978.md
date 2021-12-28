@@ -1,13 +1,9 @@
 ---
 layout: post
-status: publish
 published: true
 title: A Christmas Tradition, from 1978
 date: "2013-12-24 13:51:52 -0800"
-categories:
-  - General
-tags: []
-comments: []
+category: Christmas
 ---
 
 <a href="/images/2015/03/78_qxlui.jpg">

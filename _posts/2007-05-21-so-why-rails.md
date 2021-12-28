@@ -2,6 +2,7 @@
 published: true
 title: So why Rails?
 date: "2007-05-21 21:10:54 -0700"
+category: Coding
 ---
 
 I came from a background of web applications, and after

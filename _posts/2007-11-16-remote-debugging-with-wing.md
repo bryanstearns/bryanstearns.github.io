@@ -1,8 +1,10 @@
 ---
 published: true
 title: Remote debugging with Wing
-date: '2007-11-16 13:27:01 -0800'
+date: "2007-11-16 13:27:01 -0800"
+category: Coding
 ---
+
 I just wrote up <a href="http://chandlerproject.org/Journal/RemoteDebuggingWithWing">a
 bunch of notes on the Chandler wiki</a> about remote debugging with Wing (the
 Python IDE), having just finished a session where I fixed a problem that only

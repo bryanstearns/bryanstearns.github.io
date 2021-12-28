@@ -2,6 +2,7 @@
 published: true
 title: I drink your milkshake
 date: "2008-04-11 11:16:28 -0700"
+category: General
 ---
 
 ![7-day forecast]({{ "/images/2015/03/7day_web.jpg" | prepend: site.baseurl }}){: .thumb}

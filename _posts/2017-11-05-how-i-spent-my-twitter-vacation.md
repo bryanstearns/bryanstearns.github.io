@@ -2,6 +2,7 @@
 published: true
 title: How I Spent My Twitter Vacation
 date: "2017-11-05 11:31:23 -0800"
+category: General
 ---
 
 Maybe you haven't noticed, but I've been taking a vacation from Twitter for the last month. Just after October first, I noticed that my timeline was almost entirely bad (and/or fake) news: Trump, Weinstein, white supremacy, etc.; it had ceased to be a way to keep up to date with the fun things my friends were doing.

@@ -2,6 +2,7 @@
 published: true
 title: What's in the box
 date: "2006-04-08 12:38:26 -0700"
+category: General
 ---
 
 I run this server myself, as an educational experience; I expect that a fair

@@ -1,8 +1,10 @@
 ---
 published: true
 title: Hey, you kids! Get off my lawn!
-date: '2006-05-14 08:13:42 -0700'
+date: "2006-05-14 08:13:42 -0700"
+category: Travel & Local
 ---
+
 ![KFOG Kaboom fireworks]({{ "/images/2015/03/kaboom2.jpg" | prepend: site.baseurl }}){: .thumb}
 Every year for the last dozen or so, KFOG has presented a free concert and
 fireworks show just across the Embarcadero from here. The view from our place

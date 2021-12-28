@@ -2,6 +2,7 @@
 published: true
 title: RailsConf? But what about Chandler?
 date: "2007-05-20 22:43:08 -0700"
+category: Coding
 ---
 
 I'm still working away at <a href="http://www.osafoundation.org/"

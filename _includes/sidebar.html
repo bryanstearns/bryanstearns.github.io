@@ -34,3 +34,20 @@
     })
   </script>
 </p>
+
+<nav>
+  Topics:
+  <ul>
+    {% assign categories = site.pages | where: "type", "category" | sort: "title" %}{% for cat
+    in categories %}
+    <li>
+      {% assign target_url = cat.url | prepend: site.baseurl %}
+      {% if page.url == target_url %}
+      <strong class="page-link">{{ cat.title }}</strong>
+      {% else %}
+      <a class="page-link" href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

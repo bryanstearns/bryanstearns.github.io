@@ -2,6 +2,7 @@
 published: true
 title: "Open Source Bridge: Exciting the attentions of the Ingenious"
 date: "2010-03-24 14:06:55 -0700"
+category: Travel & Local
 ---
 
 I'm reading <a href="http://www.amazon.com/gp/product/1594484015?ie=UTF8&tag=festivalfcom-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1594484015">"The

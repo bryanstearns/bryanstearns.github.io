@@ -2,6 +2,7 @@
 published: true
 title: Quicker WEBrick startup
 date: "2010-09-01 08:45:49 -0700"
+category: Coding
 ---
 
 > Despite its popularity WEBrick has gained some notoriety since the code is

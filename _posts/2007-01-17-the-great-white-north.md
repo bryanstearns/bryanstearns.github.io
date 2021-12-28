@@ -1,8 +1,10 @@
 ---
 published: true
 title: The great white north
-date: '2007-01-17 09:33:23 -0800'
+date: "2007-01-17 09:33:23 -0800"
+category: Travel & Local
 ---
+
 As you can see from the picture above, the webcam no longer shows the
 San Francisco Oakland Bay Bridge like it used to: that's now a piece of our
 view just off the south park blocks of downtown Portland, Oregon.<!--more-->

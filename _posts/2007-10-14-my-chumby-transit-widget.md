@@ -2,6 +2,7 @@
 published: true
 title: My Chumby transit widget
 date: "2007-10-14 12:47:17 -0700"
+category: Coding
 # widget is dead... <p><object type="application/x-shockwave-flash" data="/busclock.lzr=swf7.swf?lzproxied=false" width="320" height="240" style="float:right; margin: 4px;"><param name="movie" value="/busclock.lzx.lzr=swf7.swf?lzproxied=false"></param><param name="quality" value="high"></param><param name="scale" value="noscale"></param><param name="salign" value="LT"></param><param name="menu" value="false"></param></object>
 #  <a href="javascript:void(0)" onClick="javascript:window.open('/busclock.html', 'busclock', 'status=0,location=0,width=336,height=256');">Click here</a> for this widget in its own window.
 ---

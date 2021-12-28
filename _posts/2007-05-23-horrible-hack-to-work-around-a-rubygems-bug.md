@@ -2,6 +2,7 @@
 published: true
 title: Horrible hack to work around a RubyGems bug
 date: "2007-05-23 18:11:20 -0700"
+category: Coding
 ---
 
 <a href="http://conferences.oreillynet.com/rails/">RailsConf</a>

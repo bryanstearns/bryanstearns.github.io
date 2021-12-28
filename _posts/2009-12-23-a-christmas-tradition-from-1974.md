@@ -2,6 +2,7 @@
 published: true
 title: A Christmas tradition, from 1974
 date: "2009-12-23 23:41:49 -0800"
+category: Christmas
 ---
 
 <a href="/images/2015/03/74_rtuyw.jpg">

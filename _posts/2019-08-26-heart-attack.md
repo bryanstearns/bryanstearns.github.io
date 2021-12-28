@@ -2,6 +2,7 @@
 published: true
 title: What I did over the weekend
 date: "2019-08-29 17:11:00 -0700"
+category: General
 ---
 
 TL;DR: I had a heart attack; looks like I’m gonna be fine.
@@ -34,14 +35,12 @@ They moved me a few rooms down the hall late Sunday night, to a room with an ama
 <img src="{{ "/images/2019/08/cvicu_view.jpg" | prepend: site.baseurl }}" class="content-width" />
 </a>
 
-Midday Tuesday, two game changing events: they removed the (wired) oxygen sensor from my right index finger (so I didn't have to do everything lefthanded) and the blood-pressure cuff from my left arm, which meant they could switch me to a pocket-sized wireless monitor instead of having to lug around the wires and lunchbox). Also, it occurred to me to ask if I could wear underwear under my gown (yes!), which, let me tell you, makes you feel a lot more human. I celebrated by walking two and a half miles around the floor - whoever noted on a hall whiteboard that 9 laps is a mile is a master of healing gamesmanship. The rest of the time I was reading, watching Netflix, listening to podcasts, and looking at the view. I never really got bored.
+Midday Tuesday, two game-changing events: they removed the (wired) oxygen sensor from my right index finger (so I didn't have to do everything lefthanded) and the blood-pressure cuff from my left arm, which meant they could switch me to a pocket-sized wireless monitor instead of having to lug around the wires and lunchbox). Also, it occurred to me to ask if I could wear underwear under my gown (yes!), which, let me tell you, makes you feel a lot more human. I celebrated by walking two and a half miles around the floor - whoever noted on a hall whiteboard that 9 laps is a mile is a master of healing gamesmanship. The rest of the time I was reading, watching Netflix, listening to podcasts, and looking at the view. I never really got bored.
 
-By 5am Wednesday they were pretty definitely going to send me home, and also maybe still going to move me downstairs; the former happened, the latter didn't. I was visited by a bunch more nice people as part of being sent home, and got the take-home game version of the drugs I've been on: a statin to help with cholesterol buildup, a blood thinner, a beta blocker that’ll reduce the work my heart is doing, another drug to “help the heart’s remodeling happen right” (I know they don’t want platelets to stick to the stent). I can also look forward to lifestyle changes and "cardiac rehab", which I'm set up to start next week. And no swimming for a little while? Whatever they say.
+By 5am Wednesday they were pretty definitely going to send me home, and also maybe still going to move me downstairs; the former happened, the latter didn't. I was visited by a bunch more nice people as part of being sent home, and got the take-home-game version of the drugs I've been on: a statin to help with cholesterol buildup, a blood thinner, a beta blocker that’ll reduce the work my heart is doing, another drug to “help the heart’s remodeling happen right” (I know they don’t want platelets to stick to the stent). I can also look forward to lifestyle changes and "cardiac rehab", which I'm set up to start next week. And no swimming for a little while? Whatever they say.
 
 I slept great in my own bed Wednesday night, and got to start Thursday (today) with a real shower. Before lunchtime I went for a 30-minute 1.3-mile walk, which tired me out a bit but felt great.
 
 The OHSU Phil Knight Cardiovascular Institute Intensive Care Unit is not like anyone's stereotypical idea of being stuck in a hospital. There were so many people there who took such good care of me; from my walks, I'm pretty sure that I was in the best shape of any patient there, but everyone met my every need and kept me & Gina informed (we got to watch the "rounds" discussion of my case every day and ask questions!). Pretty much _everyone_, no kidding, commented on how important it was that I came in when I did. I regret that I don’t have virtually any of staff's names because things happen so fast and the people are so numerous, but the nurses assigned to me were wonderful and I know _their_ names: Amy, Kirstin, Spencer, Catherine, Cassie, and Rebecca. (Small Portland story: Gina ran into Catherine at the bakery around the corner today, so I got to race-walk over there to say hello, which was the high point of my day today!)
 
 I’ve also gotten lots of messages from lots of friends, which I’ve really appreciated. Two of my oldest friends, Greg & Mark, passed the word, and if I wasn't already eternally in their debt I would be now. Of course, Gina did everything I'd let her do; I'm not the best partner patient!
-
-If you want to reach out or ask me anything, it's not too late: bryanstearns@gmail.com works great.

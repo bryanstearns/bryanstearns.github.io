@@ -2,6 +2,7 @@
 published: true
 title: Clearing apt-cacher's cache
 date: "2008-09-15 11:25:21 -0700"
+category: Coding
 ---
 
 I frequently reinstall Ubuntu from scratch, so I've set up `apt-cacher` on my

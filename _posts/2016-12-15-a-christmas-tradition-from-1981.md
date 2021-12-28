@@ -2,6 +2,7 @@
 published: true
 title: A Christmas Tradition, from 1981
 date: "2016-12-15 13:25:20 -0800"
+category: Christmas
 ---
 
 <a href="/images/2015/03/81_pqidy.jpg">

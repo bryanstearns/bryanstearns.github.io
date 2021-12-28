@@ -1,8 +1,10 @@
 ---
 published: true
 title: Out to the ballgame
-date: '2006-05-11 14:06:03 -0700'
+date: "2006-05-11 14:06:03 -0700"
+category: Travel & Local
 ---
+
 ![Ballpark]({{ "/images/2015/03/ballpark.jpg" | prepend: site.baseurl }}){: .thumb}
 
 You're not a geek blogger until you've written a post live from somewhere out

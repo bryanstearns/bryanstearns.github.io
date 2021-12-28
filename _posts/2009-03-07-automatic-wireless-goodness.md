@@ -2,6 +2,7 @@
 published: true
 title: Automatic wireless goodness
 date: "2009-03-07 15:29:18 -0800"
+category: Coding
 ---
 
 I often work in coffeeshops and other places that provide free wireless networks.

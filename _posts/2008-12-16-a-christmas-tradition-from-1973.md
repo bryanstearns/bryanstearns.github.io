@@ -2,6 +2,7 @@
 published: true
 title: A Christmas tradition, from 1973
 date: "2008-12-16 10:33:25 -0800"
+category: Christmas
 ---
 
 <a href="/images/2015/03/73_jfsxm.jpg">

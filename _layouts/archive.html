@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% if page.posts %} {% assign posts = page.posts %} {% else %} {% assign posts = site.posts %} {%
+endif %} {% if page.url != "/" %}
+<h1 class="page-heading">
+  <a href="/">All</a>
+  &gt; {{page.title}}
+</h1>
+{% endif %}
+
+<ul class="post-list">
+  {% for post in posts %} {% if forloop.index < 5 %}
+  <li class="post">
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+    {% if post.abstract %}
+    <p>
+      {{ post.abstract }} (<a class="more-link" href="{{ post.url | prepend: site.baseurl }}"
+        >read</a
+      >)
+    </p>
+    {% elsif post.excerpt %} {{ post.excerpt }} &hellip; (<a
+      class="more-link"
+      href="{{ post.url | prepend: site.baseurl }}"
+      >read more</a
+    >) {% else %} {{ post.content | strip_html }} {% endif %}
+  </li>
+  {% else %} {% if forloop.index == 5 %}
+  <h2>Older Posts</h2>
+  {% endif %}
+
+  <li class="post older">
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  </li>
+  {% endif %} {% endfor %}
+</ul>

@@ -2,6 +2,7 @@
 published: true
 title: This one time, at DCamp...
 date: "2006-05-14 18:17:43 -0700"
+category: Coding
 ---
 
 I spent part of Friday and Saturday evening at

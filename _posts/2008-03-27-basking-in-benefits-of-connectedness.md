@@ -2,6 +2,7 @@
 published: true
 title: Basking in benefits of connectedness
 date: "2008-03-27 19:23:23 -0700"
+category: Coding
 ---
 
 While working on setting up

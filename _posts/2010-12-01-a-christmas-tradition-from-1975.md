@@ -2,6 +2,7 @@
 published: true
 title: A Christmas Tradition, from 1975
 date: "2010-12-01 08:00:20 -0800"
+category: Christmas
 ---
 
 <a href="/images/2015/03/75_yowwu.jpg">

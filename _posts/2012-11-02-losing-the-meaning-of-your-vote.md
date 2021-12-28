@@ -4,9 +4,7 @@ status: publish
 published: true
 title: Losing the meaning of your vote
 date: "2012-11-02 07:44:58 -0700"
-categories:
-  - General
-tags: []
+category: General
 ---
 
 My good friend b1-66er wrote <a href="http://b1-66ersworld.blogspot.com/2012/11/obama-has-lost-my-vote.html"

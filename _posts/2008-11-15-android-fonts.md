@@ -2,6 +2,7 @@
 published: true
 title: The Android fonts on my desktop are beautiful
 date: "2008-11-15 11:15:19 -0800"
+category: Coding
 ---
 
 ![Android font sample]({{ "/images/2015/03/DroidGraphic300.jpg" | prepend: site.baseurl }}){: .thumb}

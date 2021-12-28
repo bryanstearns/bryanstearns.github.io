@@ -2,6 +2,7 @@
 published: true
 title: Finished with PIFF '08
 date: "2008-02-24 14:01:36 -0800"
+category: Travel & Local
 ---
 
 The Portland International Film Festival is finally over, and though I'm

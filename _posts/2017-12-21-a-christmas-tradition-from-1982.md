@@ -2,6 +2,7 @@
 published: true
 title: A Christmas Tradition, from 1982
 date: "2017-12-21 17:13:20 -0800"
+category: Christmas
 ---
 
 <a href="/images/2015/03/82_lwtdf.jpg">

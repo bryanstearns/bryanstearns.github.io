@@ -2,6 +2,7 @@
 published: true
 title: A Christmas Tradition, from 1983 & 1984
 date: "2019-12-20 17:50:00 -0800"
+category: Christmas
 ---
 
 <a href="/images/2015/03/83_xgekt.jpg">

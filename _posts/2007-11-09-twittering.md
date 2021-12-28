@@ -2,6 +2,7 @@
 published: true
 title: Twittering
 date: "2007-11-09 18:35:06 -0800"
+category: General
 ---
 
 I've given up and signed up at <a href="http://twitter.com">Twitter</a>

@@ -2,6 +2,7 @@
 published: true
 title: A Christmas Tradition, from 1979
 date: "2014-12-01 21:29:52 -0800"
+category: Christmas
 ---
 
 <a href="/images/2015/03/79_yuwep.jpg">

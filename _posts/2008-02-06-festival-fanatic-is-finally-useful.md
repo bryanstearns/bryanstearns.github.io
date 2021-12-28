@@ -1,8 +1,10 @@
 ---
 published: true
 title: Festival Fanatic is finally useful
-date: '2008-02-06 20:10:43 -0800'
+date: "2008-02-06 20:10:43 -0800"
+category: Coding
 ---
+
 I <a href="http://selfamusementpark.com/2008/01/24/happy-birthday-festivalfanatic-and-macintosh/">mentioned</a>
 a few weeks ago that I'd been working on a film festival scheduling site,
 <a href="http://festivalfanatic.com">FestivalFanatic.com</a>. Though it went

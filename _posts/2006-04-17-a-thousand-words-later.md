@@ -1,8 +1,10 @@
 ---
 published: true
 title: A thousand words later
-date: '2006-04-17 09:04:22 -0700'
+date: "2006-04-17 09:04:22 -0700"
+category: Coding
 ---
+
 ![Reflection in Cloud Gate]({{ "/images/2015/03/bean_reflection1.jpg" | prepend: site.baseurl }}){: .thumb}
 Over the weekend, I wrote my own photo-inserting plugin for Wordpress. I did my
 own because I keep all my digital photos in one place (and wanted to keep it

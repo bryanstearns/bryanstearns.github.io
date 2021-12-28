@@ -20,7 +20,7 @@ github_username: bryanstearns
 # lsi: true
 markdown: kramdown
 excerpt_separator: <!--more-->
-permalink: :title
+permalink: :categories/:title
 exclude:
   - old
   - Gemfile
@@ -37,4 +37,12 @@ defaults:
       layout: "post"
 
 plugins:
+  - jekyll-archives
   - jekyll-target-blank
+
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: "/topic/:name/"

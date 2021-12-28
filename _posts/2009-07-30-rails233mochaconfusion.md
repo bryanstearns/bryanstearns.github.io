@@ -1,8 +1,10 @@
 ---
 published: true
 title: Rails 2.3.3 + mocha = confusion
-date: '2009-07-30 15:48:22 -0700'
+date: "2009-07-30 15:48:22 -0700"
+category: Coding
 ---
+
 I just updated a project to <a href="http://weblog.rubyonrails.org/2009/7/20/rails-2-3-3-touching-faster-json-bug-fixes" target="blank">Rails 2.3.3</a>
 for the cool new "touch" feature, and saw <a href="http://railspikes.com/2009/7/29/rails-2-3-3-upgrade-notes/" target="blank">here</a>
 that I needed to update to Mocha 0.9.7. I did that, but found that my tests were

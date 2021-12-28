@@ -2,6 +2,7 @@
 published: true
 title: "Paradise: now, with chocolate!"
 date: "2007-11-01 09:10:07 -0700"
+category: Travel & Local
 ---
 
 ![Steelgrass Farm road]({{ "/images/2015/03/steelgrass_road.jpg" | prepend: site.baseurl }}){: .thumb}

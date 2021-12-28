@@ -2,6 +2,7 @@
 published: true
 title: RubyMine, Firefox, and Exception Backtraces
 date: "2011-12-13 17:21:21 -0800"
+category: Coding
 ---
 
 I use <a href="http://www.jetbrains.com/ruby/">RubyMine</a> and

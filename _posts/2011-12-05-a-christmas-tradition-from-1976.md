@@ -2,6 +2,7 @@
 published: true
 title: A Christmas Tradition, from 1976
 date: "2011-12-05 22:52:20 -0800"
+category: Christmas
 ---
 
 <a href="/images/2015/03/76_pimru.jpg">

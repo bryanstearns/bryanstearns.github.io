@@ -1,8 +1,10 @@
 ---
 published: true
 title: Android AIDL regeneration
-date: '2008-09-30 12:37:52 -0700'
+date: "2008-09-30 12:37:52 -0700"
+category: Coding
 ---
+
 I'm working on a couple of Android projects; one has an Android IDL file
 (.aidl) for a service, and for some reason, the development environment didn't
 automatically generate the corresponding .java file from it. I wasn't able to

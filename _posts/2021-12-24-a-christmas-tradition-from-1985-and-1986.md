@@ -2,6 +2,7 @@
 published: true
 title: A Christmas Tradition, from 1985 & 1986
 date: "2021-12-23 17:50:00 -0800"
+category: Christmas
 ---
 
 <a href="/images/2015/03/85_aakdv.jpg">

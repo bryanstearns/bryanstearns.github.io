@@ -2,6 +2,7 @@
 published: true
 title: Fixing a little VPN annoyance
 date: "2008-11-17 11:54:56 -0800"
+category: Coding
 ---
 
 I'm writing this in a coffee shop, and when I'm using a public wireless network,

@@ -4,45 +4,33 @@
   This is where I blog.<br />
   <span class="also small">
     Me elsewhere:
-    <a href="https://twitter.com/bryanstearns"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>
-    <a href="https://github.com/bryanstearns"><span class="icon icon--github">{% include icon-github.svg %}</span></a>
-    <a href="https://www.linkedin.com/in/bryanstearns"><span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span></a>
+    <a href="https://twitter.com/bryanstearns"
+      ><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a
+    >
+    <a href="https://github.com/bryanstearns"
+      ><span class="icon icon--github">{% include icon-github.svg %}</span></a
+    >
+    <a href="https://www.linkedin.com/in/bryanstearns"
+      ><span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span></a
+    >
   </span>
 </p>
 
 <p class="also large">
-  You can also find me on
-    <a href="https://twitter.com/bryanstearns">Twitter</a>,
-    <a href="https://github.com/bryanstearns">GitHub</a>, and
-    <a href="https://www.linkedin.com/in/bryanstearns">LinkedIn</a>, or
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a>.
-</p>
-
-<p>
-  <div id="search-container">
-    <input type="search" id="search-input" placeholder="Search..." />
-    <ul id="search-results"></ul>
-  </div>
-  <script src="/js/simple-jekyll-search.js" type="text/javascript"></script>
-  <script>
-    SimpleJekyllSearch({
-      searchInput: document.getElementById("search-input"),
-      resultsContainer: document.getElementById("search-results"),
-      json: "/search.json",
-      limit: 10,
-      debounceTime: 400
-    })
-  </script>
+  {% assign feed_url = "/feed.xml" | prepend: site.baseurl %} You can also find me on
+  <a href="https://twitter.com/bryanstearns">Twitter</a>,
+  <a href="https://github.com/bryanstearns">GitHub</a>, and
+  <a href="https://www.linkedin.com/in/bryanstearns">LinkedIn</a>, or
+  <a href="{{ feed_url }}">subscribe via RSS</a>.
 </p>
 
 <nav>
-  Topics:
+  <h4>Topics</h4>
   <ul>
-    {% assign categories = site.pages | where: "type", "category" | sort: "title" %}{% for cat
-    in categories %}
+    {% assign categories = site.pages | where: "type", "category" | sort: "title" %}{% for cat in
+    categories %}
     <li>
-      {% assign target_url = cat.url | prepend: site.baseurl %}
-      {% if page.url == target_url %}
+      {% assign target_url = cat.url | prepend: site.baseurl %} {% if page.url == target_url %}
       <strong class="page-link">{{ cat.title }}</strong>
       {% else %}
       <a class="page-link" href="{{ cat.url | prepend: site.baseurl }}">{{ cat.title }}</a>
@@ -51,3 +39,12 @@
     {% endfor %}
   </ul>
 </nav>
+
+{% if page.url contains "/airplane/") or page.url == "/topics/airplane" %}
+<h4>Build Progress</h4>
+<ul>
+  {% for total in site.data["tag_time_totals"]["Airplane"] %}
+  <li>{{ total[0] }}: {{ total[1] }} hours</li>
+  {% endfor %}
+</ul>
+{% endif %}

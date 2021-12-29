@@ -1,7 +1,6 @@
-
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid white;
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid white;
 }
 
 .sidebar {
@@ -13,6 +12,11 @@
   @include media-query($on-palm) {
     width: 100%;
     margin: 0;
+  }
+
+  h4 {
+    font-weight: bold;
+    margin-bottom: 0;
   }
 }
 

@@ -46,3 +46,7 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: "/topic/:name/"
+
+tag-time-totals:
+  categories:
+    Airplane: [General, Empennage, Wings, Fuselage, Powerplant, Avionics, Finish]

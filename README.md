@@ -7,5 +7,8 @@ Since I almost never post, I usually forget how to:
 
 - Serve the blog locally with `jekyll serve`; make sure things look good.
 
-- Commit the new post files (and images, etc) and `git push origin master`. Jekyll will run on Github Pages
-  and the site will update.
+- Commit the new post files (and images, etc)
+
+- Run `bundle exec rake blog:publish` to regenerate the site and push it to Github Pages (by putting the
+  generated site in the `gh-pages` branch). (We have to generate the site locally because we use Jekyll
+  plugins, which Github Pages won't use if it generates the site.)

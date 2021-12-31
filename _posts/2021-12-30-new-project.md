@@ -1,9 +1,6 @@
 ---
-published: false
 title: Starting a new project
-date: "2022-01-01 14:05:00 -0700"
-categories: Airplane
-tags: General
+category: Airplane
 ---
 
 <a href="https://www.vansaircraft.com/rv-12is/" target="\_blank">
@@ -49,7 +46,7 @@ second one.
 
 And the medical? I read that I might be able to convince the FAA to
 grant me a "special issuance" medical, if I can provide them with
-evidence that my heart is now in good shape and I'm not at high
+evidence that my heart is in good shape and I'm not at high
 risk of having another heart event.
 
 However, things have changed a bit since I last flew: there's also
@@ -64,9 +61,9 @@ fitness to fly.
 
 As a licensed private pilot, I get to act as a Sport Pilot if I
 want, without having to get a medical certificate - I still have to
-get an instructor's signoff, and still could only fly Light Sport aircraft
-during the day in good weather. Also (and this is the sticky part): I can't
-have been denied a medical certificate by the FAA.
+get that instructor's signoff, and still could only fly Light Sport aircraft
+during the day in good weather. Also (and this is the sticky part): _I can't
+have been denied a medical certificate by the FAA._
 
 I thought about it, and decided that I wanted to try to get the
 special-issuance medical, primarily because I wanted to be able to
@@ -95,9 +92,9 @@ keep it valid.
 
 (Another rule change I didn't mention above: the FAA has another medical program
 called BasicMed, which lets any doctor certify me without the FAA's involvement.
-It requires me to have been granted a regular medical sometime since 2007... and
+It requires me to have been granted a medical certificate sometime since 2007... and
 my new special-issuance medical counts! So, I might not even have to do the stress
-test.)
+tests every year, which is good because they're expensive!)
 
 ## So which plane do I want to build and fly?
 
@@ -125,9 +122,9 @@ night if I'm flying as a private pilot with a medical certificate.
 
 The bad news is that all of Van's kits are backordered because of
 a lot of increased demand (thanks again, pandemic!). I placed my order
-for the first subkit in July, and it's still not here yet. In the meantime,
+for the first subkit in July, and it's still not here. In the meantime,
 I've cleared out half of the garage, built a couple of workbenches, and
 started collecting the many special tools I'll need.
 
 I'll be posting my progress here, and might also post YouTube videos of
-my own.
+my own. Stay tuned!

@@ -1,0 +1,718 @@
+[
+  
+    {
+      "title"    : "Starting a new project",
+      "excerpt"  : "A long time ago, I was an amateur aviator: in the late 80’s, I learned to fly and got my instrument rating, bought an airplane, and flew it around the country a few times. I even volunteered at AirVenture, the big Experimental Aircraft Association convention and fly-in in Oshkosh, Wisconsin: my friend Andy and I provided computer support to the homebuilt judging group for almost a decade. I got to see a lot of great homebuilt airplanes, but didn’t want to build one myself; I just wanted to fly the plane I had.",
+      "abstract" : "",
+      "url"      : "/airplane/new-project",
+      "category" : "Airplane",
+      "tags"     : "",
+      "date"     : "2021-12-30 00:00:00 -0800"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas Tradition, from 1985 &amp; 1986",
+      "excerpt"  : "Continuing the tradition I started thirteen years ago, here are my Dad’s thirteenth and fourteenth “obscure” Christmas cards, from 1985 (left) &amp;amp; 1986 (right). You get two this year, because I somehow forgot to post one last year. Again. I blame the pandemic. (The 1985 image is slightly corrupted at the bottom, but nothing important is missing; the crates at the bottom are labeled “Food for Europe”. Also, that’s an actual wide rubber band around the 1986 card.) Previously: 1983/1984 1982 1981 1980 1979 1978 1977 1976 1975 1974 1973",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1985-and-1986",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2021-12-23 17:50:00 -0800"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas Tradition, from 1983 &amp; 1984",
+      "excerpt"  : "Continuing the tradition I started eleven years ago, here are my Dad’s eleventh and twelfth “obscure” Christmas cards, from 1983 (left) &amp;amp; 1984 (right). You get two this year, because I somehow forgot to post one last year. (The images are slightly corrupted at the bottom, but nothing important is missing.) Previously: 1982 1981 1980 1979 1978 1977 1976 1975 1974 1973",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1983-and-1984",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2019-12-20 17:50:00 -0800"
+
+    } ,
+  
+    {
+      "title"    : "What I did over the weekend",
+      "excerpt"  : "TL;DR: I had a heart attack; looks like I’m gonna be fine. Updated 8/29: TL;DR: I’m home, feeling fine; more details added, too.",
+      "abstract" : "",
+      "url"      : "/general/heart-attack",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2019-08-29 17:11:00 -0700"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas Tradition, from 1982",
+      "excerpt"  : "Continuing the tradition I started nine years ago, here’s my Dad’s tenth “obscure” Christmas card, from 1982. The image is corrupted at the bottom, but the damaged portion contains a hint: his name, “John F. Stearns”, has the first S in Stearns replaced by a treble clef. Previously: 1981 1980 1979 1978 1977 1976 1975 1974 1973",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1982",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2017-12-21 17:13:20 -0800"
+
+    } ,
+  
+    {
+      "title"    : "How I Spent My Twitter Vacation",
+      "excerpt"  : "Maybe you haven’t noticed, but I’ve been taking a vacation from Twitter for the last month. Just after October first, I noticed that my timeline was almost entirely bad (and/or fake) news: Trump, Weinstein, white supremacy, etc.; it had ceased to be a way to keep up to date with the fun things my friends were doing. Further, it had become a “time sponge”: whenever I had an unoccupied moment (which I have a lot of, given my continuing funemployment), I’d whip out my phone and catch up on Twitter. So I decided to take a break, and uninstalled the Twitter app from my devices; here’s what I learned:",
+      "abstract" : "",
+      "url"      : "/general/how-i-spent-my-twitter-vacation",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2017-11-05 11:31:23 -0800"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas Tradition, from 1981",
+      "excerpt"  : "Continuing the tradition started eight years ago, here’s my Dad’s ninth “obscure” Christmas card, from 1981. No, I didn’t recognize all three of the ladies’ names at the time, but I still got the message! Previously: 1980 1979 1978 1977 1976 1975 1974 1973",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1981",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2016-12-15 13:25:20 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Profiling a Slow Elixir Test",
+      "excerpt"  : "I noticed that a couple of tests in my current Elixir project were a little slow, so I set out to find a way to profile them… I quickly found this this helpful blog post (thanks, Joseph Kain!), and tried out ExProf — but afterward, like Joseph said, “At this point I was a little confused by the results.” So I kept reading Joseph’s post, wherein he tried out Erlang’s fprof. This looked better (as he says) because fprof supports display of call chains, providing a lot more useful context. Better still, I found his followup post that taught me about how recent versions of Elixir come with a Mix task (mix profile.fprof) for profiling that produces friendlier output. The Mix task didn’t give me an easy way to wrap a slow test, though: it’s good for measuring an easily-isolatable bit of code like a single function, but sometimes tests involve setup that’s harder to isolate… so I cooked up this little macro and dropped it into my project’s test/test_helper.exs: defmodule FProf do defmacro profile(do: block) do content = quote do Mix.Tasks.Profile.Fprof.profile(fn -&amp;gt; unquote(block) end, warmup: false, sort: &quot;acc&quot;, callers: true) end Code.compile_quoted(content) end end",
+      "abstract" : "",
+      "url"      : "/coding/profiling-a-slow-elixir-test",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2016-12-14 21:19:04 -0800"
+
+    } ,
+  
+    {
+      "title"    : "A Nerves tidbit",
+      "excerpt"  : "I’ve been working on learning the Elixir programming language for the last several months, and after returning from ElixirConf a few weeks ago, I was inspired to try a small project with Nerves, a platform for building Elixir applications on small devices like the Raspberry Pi. Nerves provides a toolchain for building on the Mac which results in it writing a bootable microSD card that I boot in the Pi to try out my code. There’s a lot of complexity in what Nerves is doing for me, but one little bit (not Nerves’ fault!) annoyed me: I had to enter my login password every few minutes when Nerves wanted to write to the microSD card. I just found a way around this. The build command I use, every time I want to make a change, is this (I’ve broken it onto multiple lines for clarity) – (cd apps/project &amp;amp;&amp;amp; # switch into my app MIX_ENV=prod mix firmware &amp;amp;&amp;amp; # build the disk image (until [ -d /Volumes/BOOT ]; # wait for me to reinsert the card do sleep 1; done) &amp;amp;&amp;amp; sudo chmod go+rw /dev/rdisk2 &amp;amp;&amp;amp; # Make the raw disk image writable MIX_ENV=prod mix firmware.burn -d /dev/rdisk2 &amp;amp;&amp;amp; # write to the SD card sync &amp;amp;&amp;amp; # flush changes - I&#39;m paranoid sleep 1) That sudo chmod command is the point of this post: without it, every time I did a new build, I had to enter my password, because Nerves invokes a tool called fwup to write the image, and fwup uses authopen to get authenticated access to the raw file. This permissions fix has to be done every time the microSD card is reinserted. (I’ve already set up my /etc/sudoers file to allow me to use sudo without entering my password each time.)",
+      "abstract" : "",
+      "url"      : "/coding/nerves-vs-authopen",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2016-10-02 13:24:04 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Decades",
+      "excerpt"  : "This Friday is the 35th anniversary of my start at Apple. I landed there in a summer intern job as an 18-year old, with a few years of Apple II hacking and a little community college under my belt; I didn’t even know it was an intern job until HR asked why I was still there in November, but my bosses Bob Martin &amp;amp; Taylor Pohlman smoothed things over, and I got to stay (Thanks, Bob &amp;amp; Taylor!).",
+      "abstract" : "In which I celebrate an anniversary and announce a job change!",
+      "url"      : "/general/decades",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2016-06-29 17:00:04 -0700"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas Tradition, from 1980",
+      "excerpt"  : "Continuing the tradition started seven years ago, here’s my Dad’s eighth “obscure” Christmas card, from 1980; sorry it’s a little late! Yep, that’s him in the picture; something’s a little wrong with the bottom of the image, but that doesn’t affect his holiday message (and those pillows were just the pillows on his bed!)… Previously: 1979 1978 1977 1976 1975 1974 1973",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1980",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2015-12-22 23:29:20 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Taking it from the top, yet again",
+      "excerpt"  : "This blog has been offline for several months; I rebuilt my server, and have been spending more time coding than writing. I know I’ve said it before, but I hope to post more frequently again - we’ll see how long it lasts this time.",
+      "abstract" : "",
+      "url"      : "/general/taking-it-from-the-top-yet-again",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2015-03-08 21:39:49 -0700"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas Tradition, from 1979",
+      "excerpt"  : "Continuing the tradition started six years ago, here’s my Dad’s seventh “obscure” Christmas card, from 1979. I “got” this one in 30 seconds. Previously: 1978 1977 1976 1975 1974 1973",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1979",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2014-12-01 21:29:52 -0800"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas Tradition, from 1978",
+      "excerpt"  : "It’s been 40 years since my Dad started sending out Christmas cards with “obscure” messages! I’ve been posting them *almost every December for the last several years, so here’s the sixth one, from 1978. Previously (*you might have missed last year’s due to me mostly ignoring this blog for more than the last year!): 1977 1976 1975 1974 1973",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1978",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2013-12-24 13:51:52 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Taking it from the top",
+      "excerpt"  : "As has happened before, I’ve been ignoring this blog for a while; I just rebuilt the server it runs on, so I’ve cleaned up the theme, gotten rid of plugins I don’t use, etc. I hope to post more frequently again — we’ll see how long this lasts.",
+      "abstract" : "",
+      "url"      : "/general/taking-it-from-the-top",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2013-12-09 18:28:15 -0800"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas Tradition, from 1977",
+      "excerpt"  : "Continuing the tradition started four years ago, here’s my Dad’s fifth “obscure” Christmas card, from 1977. Previously: 1976 1975 1974 1973",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1977",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2012-12-01 17:56:42 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Losing the meaning of your vote",
+      "excerpt"  : "My good friend b1-66er wrote this post about how he’s decided to vote. Please go read it, then compare your thinking to his, and mine - I started this as an email to him, but I’ve decided to post it here in case any of the other four of you who read this are thinking along the same lines.",
+      "abstract" : "",
+      "url"      : "/general/losing-the-meaning-of-your-vote",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2012-11-02 07:44:58 -0700"
+
+    } ,
+  
+    {
+      "title"    : "RubyMine, Firefox, and Exception Backtraces",
+      "excerpt"  : "I use RubyMine and Firefox for most of my day-to-day Ruby on Rails development, and in spite of my best efforts, I sometimes get exceptions that result in the display of Ruby backtraces instead of the web page I asked for.",
+      "abstract" : "",
+      "url"      : "/coding/rubymine-firefox-and-exception-backtraces",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2011-12-13 17:21:21 -0800"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas Tradition, from 1976",
+      "excerpt"  : "Continuing the tradition started three years ago, here’s my Dad’s fourth “obscure” Christmas card, from 1976. Previously: 1975 1974 1973",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1976",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2011-12-05 22:52:20 -0800"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas Tradition, from 1975",
+      "excerpt"  : "Continuing the tradition started two years ago, here’s my Dad’s third “obscure” Christmas card, from 1975. Previously: 1974 1973",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1975",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2010-12-01 08:00:20 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Quicker WEBrick startup",
+      "excerpt"  : "Despite its popularity WEBrick has gained some notoriety since the code is completely undocumented. – Wikipedia’s WEBrick page WEBrick is the little web server in the Ruby standard library, and I’ve used it several times when I’ve needed to embed a little server in a project. I noticed a couple of problems in my latest little program: it took a few seconds to start up, and always included a TCPServer Error: Address already in use - bind(2) warning in its startup messages.",
+      "abstract" : "",
+      "url"      : "/coding/quicker-webrick-startup",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2010-09-01 08:45:49 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Running away to the circus... for a few minutes",
+      "excerpt"  : "I surprised Gina tonight with a trip to see Cirque du Soleil’s “Kooza,” which just opened in Portland. She didn’t figure it out until she saw the tent, so that’s nice: I kept throwing her off with false answers to her questions: Her: “Is this an event where I’ll have to introduce myself?” Me: “Oh, yes, everyone will.”",
+      "abstract" : "",
+      "url"      : "/travel%20&%20local/running-away-to-the-circus-for-a-few-minutes",
+      "category" : "Travel & Local",
+      "tags"     : "",
+      "date"     : "2010-04-11 23:02:20 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Open Source Bridge: Exciting the attentions of the Ingenious",
+      "excerpt"  : "I’m reading “The Invention of Air” by Steven Johnson, which talks a lot about Joseph Priestly’s experiments with electricity, discovery of oxygen, etc, and also about the scientific community of the time: Priestly had many interactions with (and got much encouragement from) Benjamin Franklin; Thomas Jefferson is also involved in the story, but I’m not to that spot in the tale yet.",
+      "abstract" : "",
+      "url"      : "/travel%20&%20local/open-source-bridge-exciting-the-attentions-of-the-ingenious",
+      "category" : "Travel & Local",
+      "tags"     : "",
+      "date"     : "2010-03-24 14:06:55 -0700"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas tradition, from 1974",
+      "excerpt"  : "Last year I started a new tradition and posted my Dad’s first “obscure” Christmas card from 1973; this year’s reposted card appears just in time, because technical difficulties knocked this site off the air for the last couple of weeks. Here’s Dad’s 1974 card - it’s one of his easier ones, made even easier when I tell you that those white dots on the right were made with a punch and go through the card. Merry Christmas!",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1974",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2009-12-23 23:41:49 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Rails 2.3.3 + mocha = confusion",
+      "excerpt"  : "I just updated a project to Rails 2.3.3 for the cool new “touch” feature, and saw here that I needed to update to Mocha 0.9.7. I did that, but found that my tests were failing - I got lots of NoMethodError: undefined method &#39;stub&#39; for #&amp;lt;SomeTest:0x7f2c1d921f80&amp;gt; errors.",
+      "abstract" : "",
+      "url"      : "/coding/rails233mochaconfusion",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2009-07-30 15:48:22 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Automatic wireless goodness",
+      "excerpt"  : "I often work in coffeeshops and other places that provide free wireless networks. Since anyone could sniff traffic sent over these networks, I’ve set up my own virtual private network at home so that my traffic will be encrypted before it leaves my laptop, then decrypted on a server at home and sent out from my home network",
+      "abstract" : "",
+      "url"      : "/coding/automatic-wireless-goodness",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2009-03-07 15:29:18 -0800"
+
+    } ,
+  
+    {
+      "title"    : "My 25 things",
+      "excerpt"  : "I’m not happy about Facebook’s greedy terms of service, so rather than hand them content that they’re going to keep and monetize forever, I’m posting my “25 things you didn’t know about me” here…",
+      "abstract" : "",
+      "url"      : "/general/my-25-things",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2009-02-18 08:37:36 -0800"
+
+    } ,
+  
+    {
+      "title"    : "My &quot;Day On&quot;",
+      "excerpt"  : "Today on Martin Luther King Day, I participated in Day On, yet another great Portland tech community event: local geeks gathered at CubeSpace to volunteer to help non-profits with technical issues.",
+      "abstract" : "",
+      "url"      : "/travel%20&%20local/my-day-on",
+      "category" : "Travel & Local",
+      "tags"     : "",
+      "date"     : "2009-01-19 11:50:36 -0800"
+
+    } ,
+  
+    {
+      "title"    : "A Christmas tradition, from 1973",
+      "excerpt"  : "Christmas was a big holiday for my Dad: each year, he’d send out custom Christmas cards with obscure messages. He’d look forward to the phone calls that would result – people asking for hints, or badgering him for the new low of that year’s wordplay. He’d usually chide them (truthfully) that I’d gotten the answer in only a minute or so - I think my fondness for solving puzzles was inherited from his fondness for creating them. It’s been 35 years since the first of these cards - I’m starting a new tradition, posting them here for the holidays. Here’s the first one.",
+      "abstract" : "",
+      "url"      : "/christmas/a-christmas-tradition-from-1973",
+      "category" : "Christmas",
+      "tags"     : "",
+      "date"     : "2008-12-16 10:33:25 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Fixing a little VPN annoyance",
+      "excerpt"  : "I’m writing this in a coffee shop, and when I’m using a public wireless network, I like to secure my network traffic using a virtual private network (VPN) that I set up on my server at home. Without this, anyone else close by could spy on what I’m doing (including seeing passwords I’m sending to badly-secured web sites). Unfortunately, the connection appears to go bad after a short while, and it took me weeks to spend the minute it took to find a fix.",
+      "abstract" : "",
+      "url"      : "/coding/fixing-a-little-vpn-annoyance",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2008-11-17 11:54:56 -0800"
+
+    } ,
+  
+    {
+      "title"    : "The Android fonts on my desktop are beautiful",
+      "excerpt"  : "I’ve been tinkering with developing software for the Android phone platform (and loving my G1 phone that runs it)… the Android folks at Google hired Ascender to create a new font family for the phone, the only family that the phone comes with.",
+      "abstract" : "",
+      "url"      : "/coding/android-fonts",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2008-11-15 11:15:19 -0800"
+
+    } ,
+  
+    {
+      "title"    : "As the polls close...",
+      "excerpt"  : "I find I’m so excited, I can barely sit still or hold a thought in my head. I think it is the excitement only a free man can feel, a free man at the start of a long journey whose conclusion is uncertain. I hope I can make it across the border. I hope to see my friend, and shake his hand. I hope the Pacific is as blue as it has been in my dreams. I hope. — Red, “The Shawshank Redemption”",
+      "abstract" : "",
+      "url"      : "/general/hope",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2008-11-04 17:50:42 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Android AIDL regeneration",
+      "excerpt"  : "I’m working on a couple of Android projects; one has an Android IDL file (.aidl) for a service, and for some reason, the development environment didn’t automatically generate the corresponding .java file from it. I wasn’t able to figure out what caused this, and recreating the .aidl file didn’t fool the IDE into doing it, nor was I able to find a solution to this with the usual Googling.",
+      "abstract" : "",
+      "url"      : "/coding/android-aidl-regeneration",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2008-09-30 12:37:52 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Clearing apt-cacher&#39;s cache",
+      "excerpt"  : "I frequently reinstall Ubuntu from scratch, so I’ve set up apt-cacher on my fileserver to cache the packages I install - this not only reduces my impact on the mirrors, but also speeds up my installs.",
+      "abstract" : "",
+      "url"      : "/coding/clearing-apt-cachers-cache",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2008-09-15 11:25:21 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Rails script/performance/request needed a little help",
+      "excerpt"  : "While following another great Ryan Bates Railscast, I had a couple of problems on my Ubuntu 8.04 development machine: Rails 2.1.0’s ActionController wants version 0.6.1 or later of the ruby-prof gem, but the usual gem repositories only have 0.6.0 now. I found suggestions to install Jeremy Kemper’s fork on Github, but though I’d added GitHub as a gem source, installing jeremy-ruby-prof didn’t work because that installed his version with that name, which didn’t help ActionController. What worked was: sudo gem uninstall jeremy-ruby-prof # be sure to uninstall old attempts! git clone git://github.com/jeremy/ruby-prof.git cd ruby-prof rake gem sudo gem install pkg/ruby-prof-0.6.1.gem Then, script/performance/request ran, but generated several strange error messages instead of producing results: Couldnt get a file descriptor referring to the console Could not get a file descriptor referring to the console Couldnt get a file descriptor referring to the console Could not get a file descriptor referring to the console This turned out to be because script/performance/request wants to use open to open its output files (a text file and an HTML document), but on Ubuntu, /usr/bin/open is a link to /usr/bin/openvt, which didn’t do what we want (and generated those error messages). I’m not sure what else uses open, but this did the right thing: it lets Firefox open the files: sudo ln -sf /usr/bin/firefox /usr/bin/open",
+      "abstract" : "",
+      "url"      : "/coding/rails-scriptperformancerequest-needed-a-little-help",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2008-08-29 10:29:34 -0700"
+
+    } ,
+  
+    {
+      "title"    : "named_scope, joins, &amp; includes",
+      "excerpt"  : "I used Rails 2.1’s named_scope to implement various ways to sort things on OsoEco. When I implemented “most discussed” on the Question model (questions have many comments), it involved joining in the comments table to count comments for each question.",
+      "abstract" : "",
+      "url"      : "/coding/named_scope-joins-includes",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2008-07-10 13:51:25 -0700"
+
+    } ,
+  
+    {
+      "title"    : "I drink your milkshake",
+      "excerpt"  : "I like chocolate milkshakes, in ways that the HTML “&amp;lt;strong&amp;gt;” tag can’t really convey. So a couple of years ago, to keep myself from going all Elvis in my senectitude, I adopted a rule:",
+      "abstract" : "",
+      "url"      : "/general/i-drink-your-milkshake",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2008-04-11 11:16:28 -0700"
+
+    } ,
+  
+    {
+      "title"    : "And before that, I did this",
+      "excerpt"  : "Five other jobs that have fallen off the end of my resume:",
+      "abstract" : "",
+      "url"      : "/general/and-before-that-i-did-this",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2008-04-10 11:15:26 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Basking in benefits of connectedness",
+      "excerpt"  : "While working on setting up FestivalFanatic.com, I realized that some of its features would be useful to conference attendees as well… and since the obvious domain name was available, I registered it. Cut to yesterday evening:",
+      "abstract" : "",
+      "url"      : "/coding/basking-in-benefits-of-connectedness",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2008-03-27 19:23:23 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Today&#39;s my day",
+      "excerpt"  : "…on Portland On Fire.",
+      "abstract" : "",
+      "url"      : "/general/todays-my-day",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2008-02-26 15:02:01 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Hiding in plain sight",
+      "excerpt"  : "In writing my bio for Portland on Fire, I mentioned that I’d hidden my first name upside down in the “Read Me” file on Macintosh during the late 1980’s: millions of people clicked on this icon to get help, and as far as I know, none of them noticed my name. The Wikipedia page for TeachText (the application I’d written which provides this icon) doesn’t mention this trivia (nor that I wrote it!). After several years, TeachText was replaced by SimpleText, written by Tom Dowdy; Tom rightfully replaced my name with his; I’m just happy he kept the same style of icon. (I do rib Tom that TeachText was only 19K, where SimpleText was several times that in size.) UPDATE: Sadly, I learned recently that Tom passed away. I’ll miss him: like many people I got to work with at Apple back then, he was smart and fun. I looked forward to seeing him every year at Apple’s developer conference, where we shared the distinction of being the only “Stump the Experts” experts who’d attended every session of that panel over the years.",
+      "abstract" : "",
+      "url"      : "/coding/hiding-in-plain-sight",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2008-02-26 13:43:47 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Finished with PIFF &#39;08",
+      "excerpt"  : "The Portland International Film Festival is finally over, and though I’m exhausted from the arduous schedule I kept (I saw every film I could - 70 features and 4 collections of shorts), I had a great time — even better than last year, largely because of the wonderful collection of people I met during the festival.",
+      "abstract" : "",
+      "url"      : "/travel%20&%20local/finished-with-piff-08",
+      "category" : "Travel & Local",
+      "tags"     : "",
+      "date"     : "2008-02-24 14:01:36 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Festival Fanatic is finally useful",
+      "excerpt"  : "I mentioned a few weeks ago that I’d been working on a film festival scheduling site, FestivalFanatic.com. Though it went live then, it really hasn’t been useful without any festivals configured.",
+      "abstract" : "",
+      "url"      : "/coding/festival-fanatic-is-finally-useful",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2008-02-06 20:10:43 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Ignite Portland 2 was great!",
+      "excerpt"  : "Gina and I went to Ignite Portland 2 tonight, a collection of 5-minute presentations where the slides advance automatically every 20 seconds.",
+      "abstract" : "",
+      "url"      : "/travel%20&%20local/ignite-portland-2-was-great",
+      "category" : "Travel & Local",
+      "tags"     : "",
+      "date"     : "2008-02-05 22:58:42 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Happy Birthday, FestivalFanatic (and Macintosh)",
+      "excerpt"  : "Finally got the initial release of FestivalFanatic into production today: when it grows up, it’ll be a tool to let people get more out of going to film festivals. It’s also a tool to prove that I can do soup-to-nuts Ruby on Rails development.",
+      "abstract" : "",
+      "url"      : "/coding/happy-birthday-festivalfanatic-and-macintosh",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2008-01-24 18:43:32 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Remote debugging with Wing",
+      "excerpt"  : "I just wrote up a bunch of notes on the Chandler wiki about remote debugging with Wing (the Python IDE), having just finished a session where I fixed a problem that only occurred on an automated-build machine hundreds of miles from here (with two firewalls between me and it).",
+      "abstract" : "",
+      "url"      : "/coding/remote-debugging-with-wing",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2007-11-16 13:27:01 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Twittering",
+      "excerpt"  : "I’ve given up and signed up at Twitter — you’ll find my stream of quotidian updates linked from the sidebar on the right, there, as well as here.",
+      "abstract" : "",
+      "url"      : "/general/twittering",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2007-11-09 18:35:06 -0800"
+
+    } ,
+  
+    {
+      "title"    : "Paradise: now, with chocolate!",
+      "excerpt"  : "Just returned from a much-needed vacation on Kauai. I’ve been there several times before, but it was Gina’s first time - we both had a great time, we snorkeled, we relaxed &amp;amp; read, the weather was great, wish you were there, blah blah blah.",
+      "abstract" : "",
+      "url"      : "/travel%20&%20local/paradise-now-with-chocolate",
+      "category" : "Travel & Local",
+      "tags"     : "",
+      "date"     : "2007-11-01 09:10:07 -0700"
+
+    } ,
+  
+    {
+      "title"    : "My Chumby transit widget",
+      "excerpt"  : "I just got a Chumby, primarily to let me create a widget to run on it: it’s a clock that displays predictions of when the Portland Streetcar will be passing the stops nearest my home.",
+      "abstract" : "",
+      "url"      : "/coding/my-chumby-transit-widget",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2007-10-14 12:47:17 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Photos!",
+      "excerpt"  : "I just got back from an OSAF Sprint Week in San Francisco – all the remote folks “come home” every so often to work together in the office, and we were celebrating the Preview release of Chandler. I took my new camera along, and shot a few photos of my coworkers at lunch, and more just walking around the city — mostly during an evening walk with Ted Leung, who I’m learning a lot from. (Those are links to my new Flickr account - you can get to all my pictures using the new link over there in the sidebar.)",
+      "abstract" : "",
+      "url"      : "/travel%20&%20local/photos",
+      "category" : "Travel & Local",
+      "tags"     : "",
+      "date"     : "2007-10-01 10:59:44 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Best Laid Plans",
+      "excerpt"  : "This morning’s Oregonian newspaper had this story (sorry, they forbid linking to the photo) about a newly-uncovered schoolroom chalkboard that still bore a lesson from 1969: in neat block lettering, the board says:",
+      "abstract" : "",
+      "url"      : "/general/best-laid-plans",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2007-09-12 12:54:12 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Repeating on me?",
+      "excerpt"  : "Gina noticed a leftover half burrito in the fridge just now. She asked where I’d gotten it - I told her it came from Loco Loco, a food trailer on Alder near 9th. Then I admitted that I actually prefer Loco Loco’s burritos to Olé Olé’s or Cha! Cha! Cha!’s. Then I realized what I’d said.",
+      "abstract" : "",
+      "url"      : "/travel%20&%20local/repeating-on-me",
+      "category" : "Travel & Local",
+      "tags"     : "",
+      "date"     : "2007-06-22 22:14:30 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Horrible hack to work around a RubyGems bug",
+      "excerpt"  : "RailsConf inspired me to be more vocal in the community, and one way is for me to share some of the problem workarounds I’ve come up with. Here’s the first one, and I’m posting it in spite of being ashamed of it!",
+      "abstract" : "",
+      "url"      : "/coding/horrible-hack-to-work-around-a-rubygems-bug",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2007-05-23 18:11:20 -0700"
+
+    } ,
+  
+    {
+      "title"    : "So why Rails?",
+      "excerpt"  : "I came from a background of web applications, and after OSCON last year, I spent some time looking into Django, mostly because I’d heard a lot of good things about Rails, and Django was said to be “like Rails, only written in Python” (the language we’re using for Chandler).",
+      "abstract" : "",
+      "url"      : "/coding/so-why-rails",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2007-05-21 21:10:54 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Long time no post",
+      "excerpt"  : "I just finished attending RailsConf 2007 here in Portland, barely a week after attending the first BarCampPortland… they’ve inspired me, and I’m hoping that this post starts a more public period of blogging for me - I’m hoping to have more interesting things to say (but we’ll see!)…",
+      "abstract" : "",
+      "url"      : "/coding/long-time-no-post",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2007-05-20 22:44:57 -0700"
+
+    } ,
+  
+    {
+      "title"    : "RailsConf? But what about Chandler?",
+      "excerpt"  : "I’m still working away at OSAF on Chandler — I’ve just been playing with Ruby and Rails in my spare time. I don’t expect that to change, but you’ll see more Ruby/Rails postings here than Chandler postings - I’ll keep my Chandler contributions on the Chandler blog and mailing lists.",
+      "abstract" : "",
+      "url"      : "/coding/railsconf-but-what-about-chandler",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2007-05-20 22:43:08 -0700"
+
+    } ,
+  
+    {
+      "title"    : "The great white north",
+      "excerpt"  : "As you can see from the picture above, the webcam no longer shows the San Francisco Oakland Bay Bridge like it used to: that’s now a piece of our view just off the south park blocks of downtown Portland, Oregon.",
+      "abstract" : "",
+      "url"      : "/travel%20&%20local/the-great-white-north",
+      "category" : "Travel & Local",
+      "tags"     : "",
+      "date"     : "2007-01-17 09:33:23 -0800"
+
+    } ,
+  
+    {
+      "title"    : "How quickly daft jumping zebras vex",
+      "excerpt"  : "No kidding — Lorenzo called off his trip to visit Mexico City just because they told him the conquistadores were extinct. Ebenezer unexpectedly bagged two tranquil aardvarks with his jiffy vacuum cleaner. The public was amazed to view the quickness and dexterity of the juggler. The job requires extra pluck and zeal from every young wage earner.",
+      "abstract" : "",
+      "url"      : "/coding/how-quickly-daft-jumping-zebras-vex",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2006-07-13 08:11:15 -0700"
+
+    } ,
+  
+    {
+      "title"    : "This one time, at DCamp...",
+      "excerpt"  : "I spent part of Friday and Saturday evening at DCamp, an event devoted to connecting developers and designers for a series of ad-hoc conversations. It was the first of this new kind of un-conference that I’d attended.",
+      "abstract" : "",
+      "url"      : "/coding/this-one-time-at-dcamp",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2006-05-14 18:17:43 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Hey, you kids! Get off my lawn!",
+      "excerpt"  : "Every year for the last dozen or so, KFOG has presented a free concert and fireworks show just across the Embarcadero from here. The view from our place is extraordinary on a normal day, but it’s KFOG Kaboom night when it really pays off.",
+      "abstract" : "",
+      "url"      : "/travel%20&%20local/hey-you-kids-get-off-my-lawn",
+      "category" : "Travel & Local",
+      "tags"     : "",
+      "date"     : "2006-05-14 08:13:42 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Out to the ballgame",
+      "excerpt"  : "You’re not a geek blogger until you’ve written a post live from somewhere out in the world: greetings from Phone Company Park, section 308.",
+      "abstract" : "",
+      "url"      : "/travel%20&%20local/out-to-the-ballgame",
+      "category" : "Travel & Local",
+      "tags"     : "",
+      "date"     : "2006-05-11 14:06:03 -0700"
+
+    } ,
+  
+    {
+      "title"    : "A thousand words later",
+      "excerpt"  : "Over the weekend, I wrote my own photo-inserting plugin for Wordpress. I did my own because I keep all my digital photos in one place (and wanted to keep it that way without having all of them publicly available; I also wanted the mechanism to generate and serve lower-resolution (so lower-bandwidth) versions automatically.",
+      "abstract" : "",
+      "url"      : "/coding/a-thousand-words-later",
+      "category" : "Coding",
+      "tags"     : "",
+      "date"     : "2006-04-17 09:04:22 -0700"
+
+    } ,
+  
+    {
+      "title"    : "Too much coffee, man",
+      "excerpt"  : "We recently replaced my old Mr. Coffee with a Saeco thermal coffee maker. A brief review",
+      "abstract" : "",
+      "url"      : "/general/too-much-coffee-man",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2006-04-13 08:43:40 -0700"
+
+    } ,
+  
+    {
+      "title"    : "What&#39;s in the box",
+      "excerpt"  : "I run this server myself, as an educational experience; I expect that a fair number of posts on this blog will relate to things I’ve learned while working on it. I’ll file these posts in this “Meta” category: blogging about blogging, as well as the other server stuff underneath it. For now, here’s a list of the mechanisms on this server, many of which will soon be described in more detail in other posts:",
+      "abstract" : "",
+      "url"      : "/general/whats-in-the-box",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2006-04-08 12:38:26 -0700"
+
+    } ,
+  
+    {
+      "title"    : "This just in... again.",
+      "excerpt"  : "I’ve resurrected my blog. I started writing a couple of years ago, but eventually the posts slowed to a trickle as my impulse to post was swamped by the urge to tinker with the look. I’ve just spent a bit of time upgrading to Wordpress 2.0 and doing my own theme (dig the live photo banner!), and now that I have, the old posts don’t fit. Coming soon: pictures in posts, and of course, Google ads. Update, April 4, 2006: Google ads: check! Update, July 21, 2016: Now moved to Jekyll and Github Pages, and Google ads went away a long time ago.",
+      "abstract" : "",
+      "url"      : "/general/this-just-in",
+      "category" : "General",
+      "tags"     : "",
+      "date"     : "2006-04-01 16:35:00 -0800"
+
+    } 
+  
+]

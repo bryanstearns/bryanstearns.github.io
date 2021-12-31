@@ -7,7 +7,7 @@ category: General
 
 TL;DR: I had a heart attack; looks like I’m gonna be fine.
 
-Updated 8/29: TL;DR: I'm home, feeling fine; more details added, too.
+Updated 8/29: TL;DR: I'm home, feeling fine; more details added, too.<!--more-->
 
 Monday of last week we learned that our basement floor will need to be jackhammered up to replace a broken sewer pipe under it, so I started moving stuff out of the basement to get ready. Up the stairs to the garage. Including a bunch of boxes of books. Sometime afterward, I noticed my chest felt a little tight - I figured I was just unused to that kind of work lately.
 

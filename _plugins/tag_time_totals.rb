@@ -25,6 +25,7 @@ module TagTimeTotals
       return if @config.nil?
 
       totals = {}
+      time_tags = {}
 
       site.categories.each do |category, posts|
         tags = @config["categories"][category]
@@ -32,10 +33,12 @@ module TagTimeTotals
           posts.each do |post|
             collect_post_times(totals, category, post, tags)
           end
+          time_tags[category] = tags + ["Total"]
         end
       end
 
       site.data["tag_time_totals"] = site.config["tag-time-totals"] = totals
+      site.data["time_tags"] = time_tags
     end
 
     def collect_post_times(totals, category, post, tags)
@@ -43,7 +46,7 @@ module TagTimeTotals
         if post.data.has_key?("times") && post.data["times"][tag]
           # This post has times to record for multiple tags
           record_time(totals, category, tag, post.data["times"][tag])
-        elsif post.data.has_key?("time") && post.tags == [tag]
+        elsif post.data.has_key?("time") && post.data["tags"] == [tag]
           # This post has a single time to record for this tag
           record_time(totals, category, tag, post.data["time"])
         end

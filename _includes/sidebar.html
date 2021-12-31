@@ -41,11 +41,13 @@
   </ul>
 </nav>
 
-{% if page.url contains "/airplane/") %}
+{% if page.url contains "/airplane/") and site.data["tag_time_totals"]["Airplane"]["Total"] %} {%
+assign tags = site.data["time_tags"]["Airplane"] %}
 <h4>Build Progress</h4>
 <ul>
-  {% for total in site.data["tag_time_totals"]["Airplane"] %}
-  <li>{{ total[0] }}: {{ total[1] }} hours</li>
-  {% endfor %}
+  {% for tag in tags %} {% assign total = site.data["tag_time_totals"]["Airplane"][tag] %} {% if
+  total %}
+  <li>{{ tag }}: {{ total }} hours</li>
+  {% endif %} {% endfor %}
 </ul>
 {% endif %}

@@ -45,7 +45,7 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: "/topic/:name/"
+    category: "/:name/"
 
 tag-time-totals:
   categories:

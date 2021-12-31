@@ -17,7 +17,8 @@
 </p>
 
 <p class="also large">
-  {% assign feed_url = "/feed.xml" | prepend: site.baseurl %} You can also find me on
+  {% assign feed_url = "/feed.xml" | prepend: site.baseurl %} You can email me at
+  <i>my full name at gmail dot com</i>. You can also find me on
   <a href="https://twitter.com/bryanstearns">Twitter</a>,
   <a href="https://github.com/bryanstearns">GitHub</a>, and
   <a href="https://www.linkedin.com/in/bryanstearns">LinkedIn</a>, or
@@ -40,7 +41,7 @@
   </ul>
 </nav>
 
-{% if page.url contains "/airplane/") or page.url == "/topics/airplane" %}
+{% if page.url contains "/airplane/") %}
 <h4>Build Progress</h4>
 <ul>
   {% for total in site.data["tag_time_totals"]["Airplane"] %}

@@ -2,30 +2,17 @@
 layout: default
 ---
 
-<div class="rellinks">
-  {% if page.previous %}
-    <span class="prevlink">
-      ← <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-    </span>
-  {% endif %}
-
-  &nbsp;
-
-  {% if page.next %}
-    <span class="nextlink">
-      <a href="{{ page.next.url }}">{{ page.next.title }}</a> →
-    </span>
-  {% endif %}
-</div>
-
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"
+        >{{ page.date | date: "%b %-d, %Y" }}</time
+      >
+    </p>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+  <div class="post-content" itemprop="articleBody">{{ content }}</div>
 </article>
+
+{% relative_links %}

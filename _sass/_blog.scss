@@ -111,22 +111,27 @@ img.thumb {
   }
 }
 
-.rellinks {
+.rellinks .rellink {
+  display: flex;
+  align-items: center;
   font-style: italic;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   text-align: right;
-  // &:after {
-  //     content: "";
-  //     display: table;
-  //     clear: left;
-  // }
-}
-
-.prevlink {
-  white-space: nowrap;
-  float: left;
-}
-
-.nextlink {
-  white-space: nowrap;
+  a {
+    white-space: nowrap;
+  }
+  &.previous {
+    float: left;
+    margin-right: 0.25em;
+    div {
+      align-items: left;
+    }
+  }
+  &.next {
+    float: right;
+    margin-left: 0.25em;
+    div {
+      align-content: right;
+    }
+  }
 }
